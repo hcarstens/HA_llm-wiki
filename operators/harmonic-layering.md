@@ -20,12 +20,13 @@ Compose multiple heuristics or axioms into a unified scaffold where each layer r
 
 ## Related
 
+- [Heuristic Algebra](../heuristic-algebra.md) — canonical definition ($\oplus_{\text{ha}}$, Section 1a)
 - [Iterative Refinement](iterative-refinement.md)
 - [Negation Check](negation-check.md)
 - [Evidence-Action Proportionality](../heuristics/evidence-action-proportionality.md)
 
 ## Judgment
 
-**Confidence**: Medium — The composition concept is sound; optimal layer ordering and interaction effects need more experimentation.
+**Confidence**: Medium-High — Empirically validated in H1 (LJ via $\oplus_{\text{ha}}$ = #1, 1862 Elo). H2 clarifies scope: $\oplus_{\text{ha}}$ works best **within families sharing lineage** (DC⊕RR⊕SJ → LJ, #1). For sources from different conceptual families (AN⊕LJ → TL, #10), $\oplus_{\text{bio}}$ outperforms.
 
-**Known Disconfirmers**: Adding layers increases latency and token cost. Diminishing returns may set in quickly. Layer conflicts can produce incoherent outputs if not managed carefully.
+**Known Disconfirmers**: Adding layers increases latency and token cost. H2 shows diminishing returns at Stage 3 — combining two strong Stage 2 composites via $\oplus_{\text{ha}}$ regresses toward the mean. Harmonic arrangement can't find resonant structure between unrelated families the way it can within a family. Layer conflicts can produce incoherent outputs if not managed carefully.

@@ -19,6 +19,7 @@ Apply a heuristic or scaffold repeatedly to its own output, improving fidelity w
 
 ## Related
 
+- [Heuristic Algebra](../heuristic-algebra.md) — canonical definition (related to $\uparrow$, Section 6)
 - [Harmonic Layering](harmonic-layering.md)
 - [Calibrated Confidence](../heuristics/calibrated-confidence.md)
 
