@@ -18,6 +18,7 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 | Calibrated Confidence | Medium | [calibrated-confidence.md](heuristics/calibrated-confidence.md) |
 | Asymmetric Disconfirmation | Medium | [asymmetric-disconfirmation.md](heuristics/asymmetric-disconfirmation.md) |
 | Heuristics of Libraries (HLib) | Medium-High | [libraries.md](heuristics/libraries.md) |
+| Early Heuristics Project Synthesis | Medium-High | [early-heuristics-project-synthesis.md](heuristics/early-heuristics-project-synthesis.md) |
 
 ## Operator Inventory
 
@@ -49,7 +50,7 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 | 13 | *Kinetic Epistemics* | *1521* | +52 | $\oplus_{\text{inn}}$(AN, LJ) | — |
 | 26 | *none (baseline)* | *1030* | −439 | — | — |
 
-Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament.md) (26 conditions, 185 experiments) | [H2](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) (26 conditions, 180 experiments)
+Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament.md) (26 conditions, 185 experiments) | [H2](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) (26 conditions, 180 experiments) | [Retrospective](experiments/2026-04-05_heuristics-project-retrospective.md) | [Build-Next Retrospective](experiments/2026-04-05_what-to-build-next-retrospective.md)
 
 **Key findings across H1–H2:**
 - The compression mechanism determines scaffold quality ($\oplus_{\text{ha}}$ vs. $\oplus_{\text{bio}}$ on same inputs → 231-point gap in H1)
@@ -71,3 +72,6 @@ _No lint audits yet. Run the first audit to populate this section._
 - [ha_llm-wiki.md](ha_llm-wiki.md) — Original blueprint
 - [Heuristic Algebra Paper](heuristic_algebra_paper.pdf) — Carstens, 2026
 - [NotebookLM HA Overview](applications/notebooklm-ha-overview.md) — AI-generated overview (external, pending ingest)
+- [What to Build Next Synthesis](applications/what-to-build-next-synthesis.md) — productization & tooling phase
+- [Voice-Activated Heuristic Agent](applications/voice-activated-heuristic-agent.md) — $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ HAg) voice agent spec
+- [Heuristic Agent](applications/heuristic-agent.md) — Python agent shell with multi-provider LLM, sentinel, audio agent

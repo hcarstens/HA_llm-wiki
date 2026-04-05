@@ -193,6 +193,7 @@ The algebra applies Sc2 (falsifiability) to itself. Each operator specifies the 
 - [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament.md) — first harmonic tournament
 - [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) — temporal composites, diminishing returns finding
 - [Heuristics of Libraries](heuristics/libraries.md) — organizational axioms for this wiki
+- [Early Heuristics Project Synthesis](heuristics/early-heuristics-project-synthesis.md) — pre-wiki laboratory phase (Oct 2025–Apr 2026)
 
 ## Judgment
 
