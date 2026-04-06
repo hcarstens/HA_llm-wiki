@@ -1,3 +1,8 @@
+---
+title: "Campaign H1"
+parent: "Experiments"
+---
+
 # Campaign H1: Scaffold Tournament
 
 **Date:** 2026-03-23

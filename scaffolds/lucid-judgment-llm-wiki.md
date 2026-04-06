@@ -1,3 +1,8 @@
+---
+title: "Lucid Judgment + LLM-Wiki"
+parent: "Scaffolds"
+---
+
 # Lucid Judgment + LLM-Wiki
 
 How the Lucid Judgment scaffold integrates with Karpathy's LLM-Wiki architecture to create a self-correcting knowledge engine.

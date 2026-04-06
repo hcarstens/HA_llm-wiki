@@ -1,3 +1,8 @@
+---
+title: "Iterative Refinement"
+parent: "Operators"
+---
+
 # Iterative Refinement
 
 Apply a heuristic or scaffold repeatedly to its own output, improving fidelity with each pass — like successive approximation in signal processing.

@@ -1,3 +1,8 @@
+---
+title: "Lucid Judgment"
+parent: "Scaffolds"
+---
+
 # Lucid Judgment
 
 > The discipline of reasoning that sees clearly at three levels simultaneously — it sees its evidence (calibrated to the decision at hand), it sees its threshold (the principled moment to stop thinking and act), and it sees its own blind spots (the modes it is stuck in, the system-level failures it might miss, the pathologies it could deploy as tools).

@@ -1,3 +1,8 @@
+---
+title: "Voice Agent (Shortcuts)"
+parent: "Applications"
+---
+
 # Voice-Activated Heuristic Agent (Simple Agent Using Heuristics)
 
 **Project ID**: HA-AGENT-VOICE-2026-04  

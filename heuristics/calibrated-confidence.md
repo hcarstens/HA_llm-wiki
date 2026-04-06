@@ -1,3 +1,8 @@
+---
+title: "Calibrated Confidence"
+parent: "Heuristics"
+---
+
 # Calibrated Confidence
 
 Stated confidence levels should accurately reflect the probability of being correct. A claim made with 80% confidence should be right roughly 80% of the time.

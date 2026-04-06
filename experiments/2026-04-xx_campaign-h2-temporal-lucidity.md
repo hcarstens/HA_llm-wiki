@@ -1,3 +1,8 @@
+---
+title: "Campaign H2"
+parent: "Experiments"
+---
+
 # Campaign H2: Temporal Lucidity, Anticipatory Navigation & Kinetic Epistemics
 
 **Parent campaign:** [Campaign H1](2026-03-23_campaign-h1-scaffold-tournament.md)

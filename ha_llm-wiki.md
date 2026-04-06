@@ -1,3 +1,8 @@
+---
+title: "Blueprint"
+nav_order: 8
+---
+
 **Applying Lucid Judgment to Karpathy’s LLM-Wiki Idea**  
 
 Think of Karpathy’s LLM-Wiki as a well-built warehouse: raw sources arrive like shipments, the LLM sorts them into tidy Markdown shelves (entities, concepts, summaries), and cross-links act as aisles that connect everything. Knowledge compounds quietly instead of evaporating after each chat.  

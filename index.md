@@ -1,3 +1,9 @@
+---
+title: "Home"
+nav_order: 1
+permalink: /
+---
+
 # Heuristic Algebra LLM-Wiki
 
 > A self-correcting, high-fidelity knowledge engine powered by Lucid Judgment and Heuristic Algebra.

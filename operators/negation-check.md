@@ -1,3 +1,8 @@
+---
+title: "Negation Check"
+parent: "Operators"
+---
+
 # Negation Check
 
 Invert a claim or scaffold output and test whether the negation holds. If the negation is plausible, the original claim needs stronger evidence or qualification.

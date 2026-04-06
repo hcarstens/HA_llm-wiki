@@ -1,3 +1,8 @@
+---
+title: "Build-Next Retrospective"
+parent: "Experiments"
+---
+
 # What to Build Next Retrospective – Bridge from Laboratory to Factory
 
 **Date**: 2026-04-05  

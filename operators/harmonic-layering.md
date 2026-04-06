@@ -1,3 +1,8 @@
+---
+title: "Harmonic Layering"
+parent: "Operators"
+---
+
 # Harmonic Layering
 
 Compose multiple heuristics or axioms into a unified scaffold where each layer reinforces and checks the others, producing outputs stronger than any single heuristic alone.

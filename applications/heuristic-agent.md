@@ -1,3 +1,8 @@
+---
+title: "Heuristic Agent (Python)"
+parent: "Applications"
+---
+
 # Heuristic Agent (Agents Repository)
 
 **Status**: Ingested via Lucid Judgment audit (2026-04-05)  

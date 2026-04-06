@@ -1,3 +1,8 @@
+---
+title: "Evidence-Action Proportionality"
+parent: "Heuristics"
+---
+
 # Evidence-Action Proportionality
 
 The magnitude of any action or conclusion should be proportional to the strength and quality of the supporting evidence. Strong evidence warrants bold moves; weak evidence demands caution and smaller steps.

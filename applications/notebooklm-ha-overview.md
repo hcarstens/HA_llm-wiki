@@ -1,3 +1,8 @@
+---
+title: "NotebookLM Overview"
+parent: "Applications"
+---
+
 # NotebookLM: Heuristic Algebra Overview
 
 **Type:** External AI-generated overview

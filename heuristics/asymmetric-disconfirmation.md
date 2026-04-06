@@ -1,3 +1,8 @@
+---
+title: "Asymmetric Disconfirmation"
+parent: "Heuristics"
+---
+
 # Asymmetric Disconfirmation
 
 Actively seek evidence that contradicts your current beliefs. Weight disconfirming evidence more heavily than confirming evidence, because confirmation bias makes confirming evidence too easy to find.

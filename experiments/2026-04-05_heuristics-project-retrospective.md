@@ -1,3 +1,8 @@
+---
+title: "Heuristics Retrospective"
+parent: "Experiments"
+---
+
 # Heuristics Project Retrospective – Value to Wiki
 
 **Date**: 2026-04-05  

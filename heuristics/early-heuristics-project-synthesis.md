@@ -1,3 +1,8 @@
+---
+title: "Early Project Synthesis"
+parent: "Heuristics"
+---
+
 # Early Heuristics Project Synthesis (Pre-Wiki Laboratory Phase)
 
 **Status**: Ingested via Lucid Judgment audit (April 2026)  

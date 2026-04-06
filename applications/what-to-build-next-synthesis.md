@@ -1,3 +1,8 @@
+---
+title: "What to Build Next"
+parent: "Applications"
+---
+
 # What to Build Next Project Synthesis (Productization & Tooling Phase)
 
 **Status**: Ingested via Lucid Judgment audit (2026-04-05)  

@@ -1,0 +1,30 @@
+title: Heuristic Algebra LLM-Wiki
+description: A self-correcting, high-fidelity knowledge engine powered by Lucid Judgment and Heuristic Algebra.
+url: https://hcarstens.github.io
+baseurl: /HA_llm-wiki
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+color_scheme: dark
+
+permalink: pretty
+
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - vendor/
+  - "*.pdf"
+
+aux_links:
+  GitHub:
+    - https://github.com/hcarstens/HA_llm-wiki
+
+nav_enabled: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

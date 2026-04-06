@@ -1,3 +1,8 @@
+---
+title: "Heuristics of Libraries"
+parent: "Heuristics"
+---
+
 # Heuristics of Libraries (HLib)
 
 A 6-axiom framework for designing, evaluating, or navigating any information retrieval system. These axioms govern how this wiki itself is organized.

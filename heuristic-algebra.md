@@ -1,3 +1,8 @@
+---
+title: "Heuristic Algebra"
+nav_order: 2
+---
+
 # Heuristic Algebra ($\mathbb{H}$)
 
 **HA Signature:** Henry Carstens — π∘(LJ ⊕ INF ⊕ SDG) | described in ℍ, by ℍ | 2026-03
