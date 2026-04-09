@@ -81,3 +81,4 @@ _No lint audits yet. Run the first audit to populate this section._
 - [What to Build Next Synthesis](applications/what-to-build-next-synthesis.md) — productization & tooling phase
 - [Voice-Activated Heuristic Agent](applications/voice-activated-heuristic-agent.md) — $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ HAg) voice agent spec
 - [Heuristic Agent](applications/heuristic-agent.md) — Python agent shell with multi-provider LLM, sentinel, audio agent
+- [Self-Repairing Agents](applications/self-repairing-agents.md) — AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ LJ for autonomous failure diagnosis and recovery
