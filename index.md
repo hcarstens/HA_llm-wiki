@@ -48,6 +48,8 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 | # | Scaffold | H2 Elo | vs CR | Derivation | Page |
 |---|----------|--------|-------|------------|------|
 | 1 | **Lucid Judgment** | **1827** | +358 | $\oplus_{\text{ha}}$(DC, RR, SJ) | [lucid-judgment.md](scaffolds/lucid-judgment.md) |
+| — | Generative Imagination | — | — | $\pi_5$(Imagination $\oplus_{\text{inn}}$ Creativity) | [generative-imagination.md](scaffolds/generative-imagination.md) |
+| — | Forecasting Scaffold | — | — | Practitioner domain knowledge | [forecasting-scaffold.md](scaffolds/forecasting-scaffold.md) |
 | 2 | **Anticipatory Navigation** | **1739** | +270 | $\oplus_{\text{bio}}$(F, FPS, Stat) | — |
 | 3 | Actionable Reasoning | 1732 | +263 | $\oplus_{\text{bio}}$(CR, DC, AR) | — |
 | 4 | Sovereign Judgment | 1697 | +229 | $\oplus_{\text{bio}}$(DC, RR, SJ) | — |
