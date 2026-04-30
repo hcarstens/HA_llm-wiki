@@ -16,6 +16,7 @@ The site documents Heuristic Algebra, Lucid Judgment, scaffold experiments, and 
 - `experiments/` — evaluations and retrospectives.
 - `applications/` — applied designs and implementation notes.
 - `llms.txt` — agent-readable discovery index for the published site.
+- `agentic_index.json` — compact JSON discovery index for machine consumption.
 
 ## Retrieval Guidance
 

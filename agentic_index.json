@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generated_from": "static-site-index",
+  "site": {
+    "title": "Heuristic Algebra LLM-Wiki",
+    "url": "https://hcarstens.github.io/HA_llm-wiki/",
+    "baseurl": "/HA_llm-wiki",
+    "format": "Markdown-first Jekyll wiki",
+    "purpose": "Research wiki for Heuristic Algebra, Lucid Judgment, scaffold experiments, and applied agent designs."
+  },
+  "discovery": {
+    "llms_txt": "/HA_llm-wiki/llms.txt",
+    "robots_txt": "/HA_llm-wiki/robots.txt",
+    "agent_guide": "/HA_llm-wiki/AGENTS.md"
+  },
+  "entry_points": [
+    {
+      "title": "Homepage",
+      "path": "/HA_llm-wiki/"
+    },
+    {
+      "title": "Heuristic Algebra",
+      "path": "/HA_llm-wiki/heuristic-algebra/"
+    },
+    {
+      "title": "Lucid Judgment Scaffold",
+      "path": "/HA_llm-wiki/scaffolds/lucid-judgment/"
+    },
+    {
+      "title": "Scaffolding Summary",
+      "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/"
+    },
+    {
+      "title": "Temporal Lucidity Tournament",
+      "path": "/HA_llm-wiki/experiments/2026-04-xx_campaign-h2-temporal-lucidity/"
+    },
+    {
+      "title": "Agentic Search",
+      "path": "/HA_llm-wiki/agentic-search/"
+    },
+    {
+      "title": "ASO Heuristic",
+      "path": "/HA_llm-wiki/heuristics/agentic-search-optimization/"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Heuristics",
+      "path": "/HA_llm-wiki/heuristics/"
+    },
+    {
+      "title": "Operators",
+      "path": "/HA_llm-wiki/operators/"
+    },
+    {
+      "title": "Scaffolds",
+      "path": "/HA_llm-wiki/scaffolds/"
+    },
+    {
+      "title": "Experiments",
+      "path": "/HA_llm-wiki/experiments/"
+    },
+    {
+      "title": "Applications",
+      "path": "/HA_llm-wiki/applications/"
+    }
+  ],
+  "notes": [
+    "Prefer published route paths over source .md paths.",
+    "Markdown source is the canonical representation when reading the repository directly.",
+    "Math is rendered with MathJax on the site but is cleaner in Markdown source."
+  ]
+}
