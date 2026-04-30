@@ -7,7 +7,7 @@ parent: "Applications"
 
 ## Overview
 
-Self-repairing agents are AI systems that can diagnose and fix their own failures using structured reasoning frameworks. This application demonstrates how [Agentic Reasoning](../../heuristics/Agentic%20Reasoning%20How%20Should%20I%20Learn.md) (AgI, AgR, AgH) combined with [Lucid Judgment](../../heuristics/Heuristics%20of%20Lucid%20Judgment.md) enables agents to autonomously recover from errors.
+Self-repairing agents are AI systems that can diagnose and fix their own failures using structured reasoning frameworks. This application demonstrates how [Agentic Reasoning](../heuristics/agentic-reasoning-how-should-i-learn/) (AgI, AgR, AgH) combined with [Lucid Judgment](../heuristics/heuristics-of-lucid-judgment/) enables agents to autonomously recover from errors.
 
 ## Example: Audio Pipeline Failure Diagnosis
 
@@ -144,19 +144,19 @@ Saving session...
 
 ## Key Principles Applied
 
-- Stakes calibration from [AgR1](../../heuristics/Agentic%20Reasoning%20What%20Should%20I%20Do%20Next.md), [AgI1](../../heuristics/Agentic%20Reasoning%20How%20Should%20I%20Learn.md), [AgH Calibrator](../../heuristics/Agentic%20Reasoning%20When%20Should%20I%20Change%20Course.md)
-- Error gradient following ([AgI2](../../heuristics/Agentic%20Reasoning%20How%20Should%20I%20Learn.md))
-- Minimal viable planning ([AgI6](../../heuristics/Agentic%20Reasoning%20How%20Should%20I%20Learn.md))
-- Active error hunting ([AgR5](../../heuristics/Agentic%20Reasoning%20What%20Should%20I%20Do%20Next.md))
-- Constraint enforcement ([AgR6](../../heuristics/Agentic%20Reasoning%20What%20Should%20I%20Do%20Next.md), [AgI7](../../heuristics/Agentic%20Reasoning%20How%20Should%20I%20Learn.md))
-- Transparent progress ([AgR7](../../heuristics/Agentic%20Reasoning%20What%20Should%20I%20Do%20Next.md))
+- Stakes calibration from [AgR1](../heuristics/agentic-reasoning-what-should-i-do-next/), [AgI1](../heuristics/agentic-reasoning-how-should-i-learn/), [AgH Calibrator](../heuristics/agentic-reasoning-when-should-i-change-course/)
+- Error gradient following ([AgI2](../heuristics/agentic-reasoning-how-should-i-learn/))
+- Minimal viable planning ([AgI6](../heuristics/agentic-reasoning-how-should-i-learn/))
+- Active error hunting ([AgR5](../heuristics/agentic-reasoning-what-should-i-do-next/))
+- Constraint enforcement ([AgR6](../heuristics/agentic-reasoning-what-should-i-do-next/), [AgI7](../heuristics/agentic-reasoning-how-should-i-learn/))
+- Transparent progress ([AgR7](../heuristics/agentic-reasoning-what-should-i-do-next/))
 
 ## Related
 
-- [Agentic Reasoning How Should I Learn](../../heuristics/Agentic%20Reasoning%20How%20Should%20I%20Learn.md)
-- [Agentic Reasoning What Should I Do Next](../../heuristics/Agentic%20Reasoning%20What%20Should%20I%20Do%20Next.md)
-- [Agentic Reasoning When Should I Change Course](../../heuristics/Agentic%20Reasoning%20When%20Should%20I%20Change%20Course.md)
-- [Heuristics of Lucid Judgment](../../heuristics/Heuristics%20of%20Lucid%20Judgment.md)
+- [Agentic Reasoning: How Should I Learn?](../heuristics/agentic-reasoning-how-should-i-learn/)
+- [Agentic Reasoning: What Should I Do Next?](../heuristics/agentic-reasoning-what-should-i-do-next/)
+- [Agentic Reasoning: When Should I Change Course?](../heuristics/agentic-reasoning-when-should-i-change-course/)
+- [Heuristics of Lucid Judgment](../heuristics/heuristics-of-lucid-judgment/)
 - [Voice-Activated Heuristic Agent](../voice-activated-heuristic-agent/) — related voice agent application
 
 ## Judgment

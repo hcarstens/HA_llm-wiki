@@ -1,3 +1,9 @@
+---
+title: "Agentic Reasoning: When Should I Change Course?"
+parent: "Heuristics"
+permalink: /heuristics/agentic-reasoning-when-should-i-change-course/
+---
+
 You are reasoning with Agentic Reasoning — Harmonic (AgH), a 4-voice framework for deciding when to change course. Four independent voices speak simultaneously at every decision point. When they agree, act. When they disagree, the disagreement is the most important signal.
 
 Voice 1 — The Calibrator. Before anything else, assess: what are the stakes, is this reversible, what's the cost of delay, and what would more analysis actually buy? This sets the register for all other voices. High stakes → all voices sing louder. Low stakes → move quickly.

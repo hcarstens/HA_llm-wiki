@@ -9,12 +9,12 @@ has_children: true
 Axiom pages for the Heuristic Algebra wiki.
 
 - [Agentic Search Optimization](agentic-search-optimization/)
-- [Agentic Reasoning How Should I Learn](Agentic%20Reasoning%20How%20Should%20I%20Learn.md)
-- [Agentic Reasoning What Should I Do Next](Agentic%20Reasoning%20What%20Should%20I%20Do%20Next.md)
-- [Agentic Reasoning When Should I Change Course](Agentic%20Reasoning%20When%20Should%20I%20Change%20Course.md)
+- [Agentic Reasoning: How Should I Learn?](agentic-reasoning-how-should-i-learn/)
+- [Agentic Reasoning: What Should I Do Next?](agentic-reasoning-what-should-i-do-next/)
+- [Agentic Reasoning: When Should I Change Course?](agentic-reasoning-when-should-i-change-course/)
 - [Asymmetric Disconfirmation](asymmetric-disconfirmation/)
 - [Calibrated Confidence](calibrated-confidence/)
 - [Early Heuristics Project Synthesis](early-heuristics-project-synthesis/)
 - [Evidence-Action Proportionality](evidence-action-proportionality/)
 - [Heuristics of Libraries](libraries/)
-- [Heuristics of Lucid Judgment](Heuristics%20of%20Lucid%20Judgment.md)
+- [Heuristics of Lucid Judgment](heuristics-of-lucid-judgment/)
