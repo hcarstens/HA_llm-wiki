@@ -3,7 +3,7 @@
 Canonical site: https://hcarstens.github.io/HA_llm-wiki/
 Format: Markdown-first Jekyll wiki
 Purpose: Research wiki for Heuristic Algebra, Lucid Judgment, composite reasoning scaffolds, experiments, and applied agent designs.
-Machine index: /agentic_index.json
+Agent manifest: /agentic_index.json
 
 ## Recommended Entry Points
 
@@ -32,7 +32,7 @@ Machine index: /agentic_index.json
 - The site uses semantic headings and static content. Core content does not require JavaScript.
 - Math expressions are rendered with MathJax; when parsing source, prefer the Markdown text over rendered math SVG.
 - Internal links are usually relative in source and published under the /HA_llm-wiki base path.
-- A compact JSON discovery surface is available at /agentic_index.json.
+- A structured JSON agent manifest is available at /agentic_index.json.
 
 ## Constraints
 

@@ -1,73 +1,292 @@
 {
-  "version": 1,
-  "generated_from": "static-site-index",
+  "manifest_version": 2,
+  "manifest_type": "agent_manifest",
+  "generated_from": "static-curated-site-manifest",
+  "last_curated": "2026-04-30",
   "site": {
     "title": "Heuristic Algebra LLM-Wiki",
     "url": "https://hcarstens.github.io/HA_llm-wiki/",
     "baseurl": "/HA_llm-wiki",
     "format": "Markdown-first Jekyll wiki",
-    "purpose": "Research wiki for Heuristic Algebra, Lucid Judgment, scaffold experiments, and applied agent designs."
+    "purpose": "Research wiki for Heuristic Algebra, Lucid Judgment, scaffold experiments, and applied agent designs.",
+    "deployment": "Static Jekyll site with pretty permalinks"
   },
   "discovery": {
+    "manifest_json": "/HA_llm-wiki/agentic_index.json",
     "llms_txt": "/HA_llm-wiki/llms.txt",
     "robots_txt": "/HA_llm-wiki/robots.txt",
     "agent_guide": "/HA_llm-wiki/AGENTS.md"
   },
+  "capabilities": {
+    "retrieval": [
+      "Static HTML pages with stable route paths",
+      "Markdown source available in the repository",
+      "Compact text discovery via llms.txt",
+      "Structured JSON discovery via agentic_index.json"
+    ],
+    "content_features": [
+      "Semantic headings and section indexes",
+      "MathJax-rendered notation for Heuristic Algebra operators",
+      "Cross-linked heuristics, operators, scaffolds, experiments, and applications",
+      "Pretty permalinks preferred over source .md links"
+    ],
+    "agent_tasks_supported": [
+      "Discover canonical entry points",
+      "Traverse section inventories",
+      "Look up operators and heuristic pages",
+      "Compare scaffold experiments and retrospectives",
+      "Find application and implementation notes"
+    ],
+    "constraints": [
+      "Public read-only documentation site",
+      "No authenticated API",
+      "No transactional or write actions exposed",
+      "Core content should be parseable without JavaScript"
+    ]
+  },
+  "update_signals": {
+    "cadence": "Curated updates on repository changes and site deploys",
+    "high_change_sections": [
+      "/HA_llm-wiki/experiments/",
+      "/HA_llm-wiki/applications/"
+    ],
+    "medium_change_sections": [
+      "/HA_llm-wiki/scaffolds/",
+      "/HA_llm-wiki/heuristics/"
+    ],
+    "lower_change_canonical_pages": [
+      "/HA_llm-wiki/heuristic-algebra/",
+      "/HA_llm-wiki/"
+    ],
+    "latest_signals": [
+      {
+        "type": "experiment",
+        "title": "Campaign H2",
+        "path": "/HA_llm-wiki/experiments/2026-04-xx_campaign-h2-temporal-lucidity/"
+      },
+      {
+        "type": "summary",
+        "title": "Scaffolding Summary",
+        "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/"
+      },
+      {
+        "type": "discovery-surface",
+        "title": "Agent Manifest",
+        "path": "/HA_llm-wiki/agentic_index.json"
+      }
+    ],
+    "change_detection_hints": [
+      "Watch experiments/ for new dated reports",
+      "Watch applications/ for new implementation notes",
+      "Watch heuristics/ and scaffolds/ for new canonical reasoning pages",
+      "Watch llms.txt and agentic_index.json for discovery-layer changes"
+    ]
+  },
   "entry_points": [
     {
       "title": "Homepage",
-      "path": "/HA_llm-wiki/"
+      "path": "/HA_llm-wiki/",
+      "priority": "canonical"
     },
     {
       "title": "Heuristic Algebra",
-      "path": "/HA_llm-wiki/heuristic-algebra/"
+      "path": "/HA_llm-wiki/heuristic-algebra/",
+      "priority": "canonical"
     },
     {
-      "title": "Lucid Judgment Scaffold",
-      "path": "/HA_llm-wiki/scaffolds/lucid-judgment/"
+      "title": "Lucid Judgment",
+      "path": "/HA_llm-wiki/scaffolds/lucid-judgment/",
+      "priority": "recommended"
     },
     {
       "title": "Scaffolding Summary",
-      "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/"
+      "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/",
+      "priority": "recommended"
     },
     {
-      "title": "Temporal Lucidity Tournament",
-      "path": "/HA_llm-wiki/experiments/2026-04-xx_campaign-h2-temporal-lucidity/"
+      "title": "Campaign H2",
+      "path": "/HA_llm-wiki/experiments/2026-04-xx_campaign-h2-temporal-lucidity/",
+      "priority": "recommended"
     },
     {
       "title": "Agentic Search",
-      "path": "/HA_llm-wiki/agentic-search/"
-    },
-    {
-      "title": "ASO Heuristic",
-      "path": "/HA_llm-wiki/heuristics/agentic-search-optimization/"
+      "path": "/HA_llm-wiki/agentic-search/",
+      "priority": "supporting"
     }
   ],
-  "sections": [
-    {
-      "title": "Heuristics",
-      "path": "/HA_llm-wiki/heuristics/"
+  "page_inventories": {
+    "foundational": {
+      "section_path": "/HA_llm-wiki/",
+      "page_count": 4,
+      "pages": [
+        {
+          "title": "Home",
+          "path": "/HA_llm-wiki/"
+        },
+        {
+          "title": "Heuristic Algebra",
+          "path": "/HA_llm-wiki/heuristic-algebra/"
+        },
+        {
+          "title": "Blueprint",
+          "path": "/HA_llm-wiki/ha_llm-wiki/"
+        },
+        {
+          "title": "Agentic Search",
+          "path": "/HA_llm-wiki/agentic-search/"
+        }
+      ]
     },
-    {
-      "title": "Operators",
-      "path": "/HA_llm-wiki/operators/"
+    "heuristics": {
+      "section_path": "/HA_llm-wiki/heuristics/",
+      "page_count": 10,
+      "pages": [
+        {
+          "title": "Agentic Search Optimization",
+          "path": "/HA_llm-wiki/heuristics/agentic-search-optimization/"
+        },
+        {
+          "title": "Agentic Reasoning: How Should I Learn?",
+          "path": "/HA_llm-wiki/heuristics/agentic-reasoning-how-should-i-learn/"
+        },
+        {
+          "title": "Agentic Reasoning: What Should I Do Next?",
+          "path": "/HA_llm-wiki/heuristics/agentic-reasoning-what-should-i-do-next/"
+        },
+        {
+          "title": "Agentic Reasoning: When Should I Change Course?",
+          "path": "/HA_llm-wiki/heuristics/agentic-reasoning-when-should-i-change-course/"
+        },
+        {
+          "title": "Asymmetric Disconfirmation",
+          "path": "/HA_llm-wiki/heuristics/asymmetric-disconfirmation/"
+        },
+        {
+          "title": "Calibrated Confidence",
+          "path": "/HA_llm-wiki/heuristics/calibrated-confidence/"
+        },
+        {
+          "title": "Early Heuristics Project Synthesis",
+          "path": "/HA_llm-wiki/heuristics/early-heuristics-project-synthesis/"
+        },
+        {
+          "title": "Evidence-Action Proportionality",
+          "path": "/HA_llm-wiki/heuristics/evidence-action-proportionality/"
+        },
+        {
+          "title": "Heuristics of Libraries",
+          "path": "/HA_llm-wiki/heuristics/libraries/"
+        },
+        {
+          "title": "Heuristics of Lucid Judgment",
+          "path": "/HA_llm-wiki/heuristics/heuristics-of-lucid-judgment/"
+        }
+      ]
     },
-    {
-      "title": "Scaffolds",
-      "path": "/HA_llm-wiki/scaffolds/"
+    "operators": {
+      "section_path": "/HA_llm-wiki/operators/",
+      "page_count": 3,
+      "pages": [
+        {
+          "title": "Harmonic Layering",
+          "path": "/HA_llm-wiki/operators/harmonic-layering/"
+        },
+        {
+          "title": "Iterative Refinement",
+          "path": "/HA_llm-wiki/operators/iterative-refinement/"
+        },
+        {
+          "title": "Negation Check",
+          "path": "/HA_llm-wiki/operators/negation-check/"
+        }
+      ]
     },
-    {
-      "title": "Experiments",
-      "path": "/HA_llm-wiki/experiments/"
+    "scaffolds": {
+      "section_path": "/HA_llm-wiki/scaffolds/",
+      "page_count": 4,
+      "pages": [
+        {
+          "title": "Lucid Judgment",
+          "path": "/HA_llm-wiki/scaffolds/lucid-judgment/"
+        },
+        {
+          "title": "Lucid Judgment + LLM-Wiki",
+          "path": "/HA_llm-wiki/scaffolds/lucid-judgment-llm-wiki/"
+        },
+        {
+          "title": "Generative Imagination",
+          "path": "/HA_llm-wiki/scaffolds/generative-imagination/"
+        },
+        {
+          "title": "Forecasting Scaffold",
+          "path": "/HA_llm-wiki/scaffolds/forecasting-scaffold/"
+        }
+      ]
     },
-    {
-      "title": "Applications",
-      "path": "/HA_llm-wiki/applications/"
+    "experiments": {
+      "section_path": "/HA_llm-wiki/experiments/",
+      "page_count": 5,
+      "pages": [
+        {
+          "title": "Campaign H1",
+          "path": "/HA_llm-wiki/experiments/2026-03-23_campaign-h1-scaffold-tournament/"
+        },
+        {
+          "title": "Heuristics Retrospective",
+          "path": "/HA_llm-wiki/experiments/2026-04-05_heuristics-project-retrospective/"
+        },
+        {
+          "title": "Build-Next Retrospective",
+          "path": "/HA_llm-wiki/experiments/2026-04-05_what-to-build-next-retrospective/"
+        },
+        {
+          "title": "Scaffolding Summary: From Reasoning to Creativity to Forecasting",
+          "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/"
+        },
+        {
+          "title": "Campaign H2",
+          "path": "/HA_llm-wiki/experiments/2026-04-xx_campaign-h2-temporal-lucidity/"
+        }
+      ]
+    },
+    "applications": {
+      "section_path": "/HA_llm-wiki/applications/",
+      "page_count": 5,
+      "pages": [
+        {
+          "title": "Heuristic Agent (Python)",
+          "path": "/HA_llm-wiki/applications/heuristic-agent/"
+        },
+        {
+          "title": "NotebookLM Overview",
+          "path": "/HA_llm-wiki/applications/notebooklm-ha-overview/"
+        },
+        {
+          "title": "Self-Repairing Agents",
+          "path": "/HA_llm-wiki/applications/self-repairing-agents/"
+        },
+        {
+          "title": "Voice Agent (Shortcuts)",
+          "path": "/HA_llm-wiki/applications/voice-activated-heuristic-agent/"
+        },
+        {
+          "title": "What to Build Next",
+          "path": "/HA_llm-wiki/applications/what-to-build-next-synthesis/"
+        }
+      ]
     }
-  ],
-  "notes": [
-    "Prefer published route paths over source .md paths.",
-    "Markdown source is the canonical representation when reading the repository directly.",
-    "Math is rendered with MathJax on the site but is cleaner in Markdown source."
-  ]
+  },
+  "retrieval_guidance": {
+    "preferred_order": [
+      "Start at the homepage or the section index for the relevant domain",
+      "Use Heuristic Algebra for canonical operator definitions",
+      "Use scaffolds and experiments for synthesized and comparative conclusions",
+      "Use applications for concrete implementation patterns"
+    ],
+    "parsing_notes": [
+      "Prefer published route paths over source .md paths",
+      "Markdown source is canonical when reading the repository directly",
+      "Math is rendered with MathJax on the site but cleaner in Markdown source"
+    ]
+  }
 }
