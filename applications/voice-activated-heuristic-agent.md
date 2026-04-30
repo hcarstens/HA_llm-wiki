@@ -59,12 +59,12 @@ Project is falsified if desktop prototype fails to deliver framework-compliant r
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — derivation of this agent as $\pi_7$ compound
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — primary reasoning engine (Elo 1827)
-- [What to Build Next Synthesis](what-to-build-next-synthesis.md) — productization phase that specified voice agents
-- [What to Build Next Retrospective](../experiments/2026-04-05_what-to-build-next-retrospective.md) — retrospective proposing AxiomChat benchmarking
-- [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis.md) — laboratory foundation
-- [Heuristic Agent](heuristic-agent.md) — full Python implementation (supersedes this Shortcuts prototype in capability)
+- [Heuristic Algebra](../../heuristic-algebra/) — derivation of this agent as $\pi_7$ compound
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — primary reasoning engine (Elo 1827)
+- [What to Build Next Synthesis](../what-to-build-next-synthesis/) — productization phase that specified voice agents
+- [What to Build Next Retrospective](../../experiments/2026-04-05_what-to-build-next-retrospective/) — retrospective proposing AxiomChat benchmarking
+- [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — laboratory foundation
+- [Heuristic Agent](../heuristic-agent/) — full Python implementation (supersedes this Shortcuts prototype in capability)
 
 ## Judgment
 

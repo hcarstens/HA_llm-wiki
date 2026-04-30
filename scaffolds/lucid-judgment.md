@@ -143,14 +143,14 @@ Include in your output:
 
 ## Related
 
-- [Lucid Judgment + LLM-Wiki](lucid-judgment-llm-wiki.md)
-- [Campaign H1 Results](../experiments/2026-03-23_campaign-h1-scaffold-tournament.md) — LJ debuts at #1
-- [Campaign H2 Results](../experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) — LJ retains #1, Stage 3 composites regress
-- [Heuristic Algebra](../heuristic-algebra.md)
-- [Harmonic Layering](../operators/harmonic-layering.md)
-- [Evidence-Action Proportionality](../heuristics/evidence-action-proportionality.md)
-- [Calibrated Confidence](../heuristics/calibrated-confidence.md)
-- [Asymmetric Disconfirmation](../heuristics/asymmetric-disconfirmation.md)
+- [Lucid Judgment + LLM-Wiki](../lucid-judgment-llm-wiki/)
+- [Campaign H1 Results](../../experiments/2026-03-23_campaign-h1-scaffold-tournament/) — LJ debuts at #1
+- [Campaign H2 Results](../../experiments/2026-04-xx_campaign-h2-temporal-lucidity/) — LJ retains #1, Stage 3 composites regress
+- [Heuristic Algebra](../../heuristic-algebra/)
+- [Harmonic Layering](../../operators/harmonic-layering/)
+- [Evidence-Action Proportionality](../../heuristics/evidence-action-proportionality/)
+- [Calibrated Confidence](../../heuristics/calibrated-confidence/)
+- [Asymmetric Disconfirmation](../../heuristics/asymmetric-disconfirmation/)
 
 ## Judgment
 

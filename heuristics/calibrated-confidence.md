@@ -21,9 +21,9 @@ Stated confidence levels should accurately reflect the probability of being corr
 
 ## Related
 
-- [Evidence-Action Proportionality](evidence-action-proportionality.md)
-- [Asymmetric Disconfirmation](asymmetric-disconfirmation.md)
-- [Iterative Refinement](../operators/iterative-refinement.md)
+- [Evidence-Action Proportionality](../evidence-action-proportionality/)
+- [Asymmetric Disconfirmation](../asymmetric-disconfirmation/)
+- [Iterative Refinement](../../operators/iterative-refinement/)
 
 ## Judgment
 

@@ -9,7 +9,7 @@ nav_order: 2
 
 > The seminal operating document for Heuristic Algebra. This page is the canonical reference for all operators, constraints, and falsification conditions.
 >
-> **Empirically validated across 10 campaigns (R2–H2).** H1: 26 conditions × 4 frontier LLMs. Every scaffold outperforms baseline (+160 to +799 Elo). The operator matters: same inputs via $\oplus_{\text{bio}}$ → #8 vs. $\oplus_{\text{ha}}$ → #1 (231-point gap). H2: Stage 3 composites show diminishing returns — $\oplus_{\text{ha}}$ works best within families sharing lineage; for diverse sources, $\oplus_{\text{bio}}$ produces tighter scaffolds. See [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament.md) and [H2](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) results.
+> **Empirically validated across 10 campaigns (R2–H2).** H1: 26 conditions × 4 frontier LLMs. Every scaffold outperforms baseline (+160 to +799 Elo). The operator matters: same inputs via $\oplus_{\text{bio}}$ → #8 vs. $\oplus_{\text{ha}}$ → #1 (231-point gap). H2: Stage 3 composites show diminishing returns — $\oplus_{\text{ha}}$ works best within families sharing lineage; for diverse sources, $\oplus_{\text{bio}}$ produces tighter scaffolds. See [H1](../experiments/2026-03-23_campaign-h1-scaffold-tournament/) and [H2](../experiments/2026-04-xx_campaign-h2-temporal-lucidity/) results.
 
 The set of all fundamental heuristics (Axioms) for a given topic $T$ is denoted as $\mathbf{H}_{T} = \{h_1, h_2, h_3, \dots, h_n\}$.
 
@@ -191,14 +191,14 @@ The algebra applies Sc2 (falsifiability) to itself. Each operator specifies the 
 
 ## Related
 
-- [Lucid Judgment](scaffolds/lucid-judgment.md) — scaffold built from HA operators
-- [Harmonic Layering](operators/harmonic-layering.md) — detailed page on $\oplus_{\text{ha}}$
-- [Negation Check](operators/negation-check.md) — detailed page on $\neg$ application
-- [Iterative Refinement](operators/iterative-refinement.md) — detailed page on iterative $\uparrow$ style passes
-- [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament.md) — first harmonic tournament
-- [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) — temporal composites, diminishing returns finding
-- [Heuristics of Libraries](heuristics/libraries.md) — organizational axioms for this wiki
-- [Early Heuristics Project Synthesis](heuristics/early-heuristics-project-synthesis.md) — pre-wiki laboratory phase (Oct 2025–Apr 2026)
+- [Lucid Judgment](../scaffolds/lucid-judgment/) — scaffold built from HA operators
+- [Harmonic Layering](../operators/harmonic-layering/) — detailed page on $\oplus_{\text{ha}}$
+- [Negation Check](../operators/negation-check/) — detailed page on $\neg$ application
+- [Iterative Refinement](../operators/iterative-refinement/) — detailed page on iterative $\uparrow$ style passes
+- [Campaign H1 Results](../experiments/2026-03-23_campaign-h1-scaffold-tournament/) — first harmonic tournament
+- [Campaign H2 Results](../experiments/2026-04-xx_campaign-h2-temporal-lucidity/) — temporal composites, diminishing returns finding
+- [Heuristics of Libraries](../heuristics/libraries/) — organizational axioms for this wiki
+- [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis/) — pre-wiki laboratory phase (Oct 2025–Apr 2026)
 
 ## Judgment
 

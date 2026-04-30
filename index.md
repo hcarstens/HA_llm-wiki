@@ -12,7 +12,7 @@ permalink: /
 
 | Document | Status | Page |
 |----------|--------|------|
-| **Heuristic Algebra (v0.5)** | Canonical | [heuristic-algebra.md](heuristic-algebra.md) |
+| **Heuristic Algebra (v0.5)** | Canonical | [Heuristic Algebra](heuristic-algebra/) |
 
 Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\text{inn}}, \neg, \sim, \leftrightarrow, \bot, \pi, \delta, \uparrow\}$
 
@@ -20,37 +20,37 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 
 | Axiom | Confidence | Page |
 |-------|-----------|------|
-| Agentic Search Optimization | Medium-High | [agentic-search-optimization.md](heuristics/agentic-search-optimization.md) |
-| Evidence-Action Proportionality | Medium | [evidence-action-proportionality.md](heuristics/evidence-action-proportionality.md) |
-| Calibrated Confidence | Medium | [calibrated-confidence.md](heuristics/calibrated-confidence.md) |
-| Asymmetric Disconfirmation | Medium | [asymmetric-disconfirmation.md](heuristics/asymmetric-disconfirmation.md) |
-| Heuristics of Libraries (HLib) | Medium-High | [libraries.md](heuristics/libraries.md) |
-| Early Heuristics Project Synthesis | Medium-High | [early-heuristics-project-synthesis.md](heuristics/early-heuristics-project-synthesis.md) |
+| Agentic Search Optimization | Medium-High | [Agentic Search Optimization](heuristics/agentic-search-optimization/) |
+| Evidence-Action Proportionality | Medium | [Evidence-Action Proportionality](heuristics/evidence-action-proportionality/) |
+| Calibrated Confidence | Medium | [Calibrated Confidence](heuristics/calibrated-confidence/) |
+| Asymmetric Disconfirmation | Medium | [Asymmetric Disconfirmation](heuristics/asymmetric-disconfirmation/) |
+| Heuristics of Libraries (HLib) | Medium-High | [Heuristics of Libraries](heuristics/libraries/) |
+| Early Heuristics Project Synthesis | Medium-High | [Early Heuristics Project Synthesis](heuristics/early-heuristics-project-synthesis/) |
 
 ## Operator Inventory
 
 | Operator | Symbol | Page |
 |----------|--------|------|
-| Combination (Union) | $\oplus$ | [heuristic-algebra.md §1](heuristic-algebra.md) |
-| Biological Selection | $\oplus_{\text{bio}}$ | [heuristic-algebra.md §1a](heuristic-algebra.md) |
-| Harmonic Arrangement | $\oplus_{\text{ha}}$ | [harmonic-layering.md](operators/harmonic-layering.md) |
-| Innovative Recombination | $\oplus_{\text{inn}}$ | [heuristic-algebra.md §1a](heuristic-algebra.md) |
-| Transformation (Negation) | $\neg$ | [negation-check.md](operators/negation-check.md) |
-| Similarity | $\sim$ | [heuristic-algebra.md §3](heuristic-algebra.md) |
-| Resonance | $\leftrightarrow$ | [heuristic-algebra.md §3a](heuristic-algebra.md) |
-| Contradiction | $\bot$ | [heuristic-algebra.md §1](heuristic-algebra.md) |
-| Projection | $\pi$ | [heuristic-algebra.md §4](heuristic-algebra.md) |
-| Decompression | $\delta$ | [heuristic-algebra.md §5](heuristic-algebra.md) |
-| Update | $\uparrow$ | [heuristic-algebra.md §6](heuristic-algebra.md) |
-| Iterative Refinement | — | [iterative-refinement.md](operators/iterative-refinement.md) |
+| Combination (Union) | $\oplus$ | [Heuristic Algebra](heuristic-algebra/) |
+| Biological Selection | $\oplus_{\text{bio}}$ | [Heuristic Algebra](heuristic-algebra/) |
+| Harmonic Arrangement | $\oplus_{\text{ha}}$ | [Harmonic Layering](operators/harmonic-layering/) |
+| Innovative Recombination | $\oplus_{\text{inn}}$ | [Heuristic Algebra](heuristic-algebra/) |
+| Transformation (Negation) | $\neg$ | [Negation Check](operators/negation-check/) |
+| Similarity | $\sim$ | [Heuristic Algebra](heuristic-algebra/) |
+| Resonance | $\leftrightarrow$ | [Heuristic Algebra](heuristic-algebra/) |
+| Contradiction | $\bot$ | [Heuristic Algebra](heuristic-algebra/) |
+| Projection | $\pi$ | [Heuristic Algebra](heuristic-algebra/) |
+| Decompression | $\delta$ | [Heuristic Algebra](heuristic-algebra/) |
+| Update | $\uparrow$ | [Heuristic Algebra](heuristic-algebra/) |
+| Iterative Refinement | — | [Iterative Refinement](operators/iterative-refinement/) |
 
 ## Scaffold Leaderboard (Latest: Campaign H2)
 
 | # | Scaffold | H2 Elo | vs CR | Derivation | Page |
 |---|----------|--------|-------|------------|------|
-| 1 | **Lucid Judgment** | **1827** | +358 | $\oplus_{\text{ha}}$(DC, RR, SJ) | [lucid-judgment.md](scaffolds/lucid-judgment.md) |
-| — | Generative Imagination | — | — | $\pi_5$(Imagination $\oplus_{\text{inn}}$ Creativity) | [generative-imagination.md](scaffolds/generative-imagination.md) |
-| — | Forecasting Scaffold | — | — | Practitioner domain knowledge | [forecasting-scaffold.md](scaffolds/forecasting-scaffold.md) |
+| 1 | **Lucid Judgment** | **1827** | +358 | $\oplus_{\text{ha}}$(DC, RR, SJ) | [Lucid Judgment](scaffolds/lucid-judgment/) |
+| — | Generative Imagination | — | — | $\pi_5$(Imagination $\oplus_{\text{inn}}$ Creativity) | [Generative Imagination](scaffolds/generative-imagination/) |
+| — | Forecasting Scaffold | — | — | Practitioner domain knowledge | [Forecasting Scaffold](scaffolds/forecasting-scaffold/) |
 | 2 | **Anticipatory Navigation** | **1739** | +270 | $\oplus_{\text{bio}}$(F, FPS, Stat) | — |
 | 3 | Actionable Reasoning | 1732 | +263 | $\oplus_{\text{bio}}$(CR, DC, AR) | — |
 | 4 | Sovereign Judgment | 1697 | +229 | $\oplus_{\text{bio}}$(DC, RR, SJ) | — |
@@ -59,7 +59,7 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 | 13 | *Kinetic Epistemics* | *1521* | +52 | $\oplus_{\text{inn}}$(AN, LJ) | — |
 | 26 | *none (baseline)* | *1030* | −439 | — | — |
 
-Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament.md) (26 conditions, 185 experiments) | [H2](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) (26 conditions, 180 experiments) | [Retrospective](experiments/2026-04-05_heuristics-project-retrospective.md) | [Build-Next Retrospective](experiments/2026-04-05_what-to-build-next-retrospective.md)
+Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament/) (26 conditions, 185 experiments) | [H2](experiments/2026-04-xx_campaign-h2-temporal-lucidity/) (26 conditions, 180 experiments) | [Retrospective](experiments/2026-04-05_heuristics-project-retrospective/) | [Build-Next Retrospective](experiments/2026-04-05_what-to-build-next-retrospective/)
 
 **Key findings across H1–H2:**
 - The compression mechanism determines scaffold quality ($\oplus_{\text{ha}}$ vs. $\oplus_{\text{bio}}$ on same inputs → 231-point gap in H1)
@@ -73,17 +73,15 @@ _No lint audits yet. Run the first audit to populate this section._
 
 ## Quick Links
 
-- [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) — latest
-- [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament.md)
-- [Agentic Search](agentic_search.md) — background and ASO framing
-- [Agentic Search Optimization](heuristics/agentic-search-optimization.md) — site optimization heuristic
-- [Lucid Judgment + LLM-Wiki](scaffolds/lucid-judgment-llm-wiki.md)
+- [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity/) — latest
+- [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament/)
+- [Agentic Search](agentic-search/) — background and ASO framing
+- [Agentic Search Optimization](heuristics/agentic-search-optimization/) — site optimization heuristic
+- [Lucid Judgment + LLM-Wiki](scaffolds/lucid-judgment-llm-wiki/)
 - [Applications](applications/)
-- [CLAUDE.md](CLAUDE.md) — Standing instructions & conventions
-- [ha_llm-wiki.md](ha_llm-wiki.md) — Original blueprint
-- [Heuristic Algebra Paper](heuristic_algebra_paper.pdf) — Carstens, 2026
-- [NotebookLM HA Overview](applications/notebooklm-ha-overview.md) — AI-generated overview (external, pending ingest)
-- [What to Build Next Synthesis](applications/what-to-build-next-synthesis.md) — productization & tooling phase
-- [Voice-Activated Heuristic Agent](applications/voice-activated-heuristic-agent.md) — $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ HAg) voice agent spec
-- [Heuristic Agent](applications/heuristic-agent.md) — Python agent shell with multi-provider LLM, sentinel, audio agent
-- [Self-Repairing Agents](applications/self-repairing-agents.md) — AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ LJ for autonomous failure diagnosis and recovery
+- [Blueprint](ha_llm-wiki/) — original blueprint
+- [NotebookLM HA Overview](applications/notebooklm-ha-overview/) — AI-generated overview (external, pending ingest)
+- [What to Build Next Synthesis](applications/what-to-build-next-synthesis/) — productization & tooling phase
+- [Voice-Activated Heuristic Agent](applications/voice-activated-heuristic-agent/) — $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ HAg) voice agent spec
+- [Heuristic Agent](applications/heuristic-agent/) — Python agent shell with multi-provider LLM, sentinel, audio agent
+- [Self-Repairing Agents](applications/self-repairing-agents/) — AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ LJ for autonomous failure diagnosis and recovery

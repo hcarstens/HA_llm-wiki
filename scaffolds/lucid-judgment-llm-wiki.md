@@ -37,8 +37,8 @@ _To be populated as experiments are run. See [/experiments/](../experiments/) fo
 
 ## Related
 
-- [Lucid Judgment](lucid-judgment.md)
-- [Original Blueprint](../ha_llm-wiki.md)
+- [Lucid Judgment](../lucid-judgment/)
+- [Original Blueprint](../../ha_llm-wiki/)
 
 ## Judgment
 

@@ -43,10 +43,10 @@ ASO extends technical SEO into an agent-mediated web. The target is not just ran
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md)
-- [Heuristics](index.md)
-- [Lucid Judgment](../scaffolds/lucid-judgment.md)
-- [Agentic Search Background](../agentic_search.md)
+- [Heuristic Algebra](../../heuristic-algebra/)
+- [Heuristics](../)
+- [Lucid Judgment](../../scaffolds/lucid-judgment/)
+- [Agentic Search Background](../../agentic-search/)
 
 ## Judgment
 

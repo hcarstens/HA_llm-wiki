@@ -124,7 +124,7 @@ pip install -r requirements.txt
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — the formal system tested
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — the #1 scaffold
-- [Lucid Judgment + LLM-Wiki](../scaffolds/lucid-judgment-llm-wiki.md) — wiki integration design
-- [Harmonic Layering](../operators/harmonic-layering.md) — the operator that won
+- [Heuristic Algebra](../../heuristic-algebra/) — the formal system tested
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — the #1 scaffold
+- [Lucid Judgment + LLM-Wiki](../../scaffolds/lucid-judgment-llm-wiki/) — wiki integration design
+- [Harmonic Layering](../../operators/harmonic-layering/) — the operator that won

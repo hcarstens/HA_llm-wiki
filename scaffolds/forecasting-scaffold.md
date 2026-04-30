@@ -41,9 +41,9 @@ Use alone — do not combine with additional heuristics, as they degrade perform
 
 ## Related
 
-- [Scaffolds](index.md)
-- [Heuristic Algebra](../heuristic-algebra.md)
-- [Forecasting Campaigns](../experiments/index.md)
+- [Scaffolds](../)
+- [Heuristic Algebra](../../heuristic-algebra/)
+- [Experiments](../../experiments/)
 
 ## Judgment
 

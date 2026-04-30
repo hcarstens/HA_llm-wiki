@@ -50,13 +50,13 @@ This wiki currently applies:
 - **Lib3** (Hierarchical Classification): Two-level hierarchy (folder → page)
 - **Lib4** (Controlled Vocabulary): Consistent naming via CLAUDE.md conventions
 - **Lib5** (Citation Chaining): Cross-links in every page's `## Related` section
-- **Lib6** (Single Entry Point): [index.md](../index.md) as the dashboard
+- **Lib6** (Single Entry Point): [Home](../../) as the dashboard
 
 ## Related
 
-- [Evidence-Action Proportionality](evidence-action-proportionality.md)
-- [Negation Check](../operators/negation-check.md)
-- [Harmonic Layering](../operators/harmonic-layering.md)
+- [Evidence-Action Proportionality](../evidence-action-proportionality/)
+- [Negation Check](../../operators/negation-check/)
+- [Harmonic Layering](../../operators/harmonic-layering/)
 
 ## Judgment
 

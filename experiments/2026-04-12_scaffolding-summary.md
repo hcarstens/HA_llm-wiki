@@ -189,13 +189,13 @@ A natural question: if creativity and forecasting had followed CT's skeleton→c
 
 ## Related
 
-- [Experiments](index.md)
-- [Heuristic Algebra](../heuristic-algebra.md)
-- [Lucid Judgment](../scaffolds/lucid-judgment.md)
-- [Generative Imagination](../scaffolds/generative-imagination.md)
-- [Forecasting Scaffold](../scaffolds/forecasting-scaffold.md)
-- [Campaign H1 Results](2026-03-23_campaign-h1-scaffold-tournament.md)
-- [Campaign H2 Results](2026-04-xx_campaign-h2-temporal-lucidity.md)
+- [Experiments](../)
+- [Heuristic Algebra](../../heuristic-algebra/)
+- [Lucid Judgment](../../scaffolds/lucid-judgment/)
+- [Generative Imagination](../../scaffolds/generative-imagination/)
+- [Forecasting Scaffold](../../scaffolds/forecasting-scaffold/)
+- [Campaign H1 Results](../2026-03-23_campaign-h1-scaffold-tournament/)
+- [Campaign H2 Results](../2026-04-xx_campaign-h2-temporal-lucidity/)
 
 ## Judgment
 

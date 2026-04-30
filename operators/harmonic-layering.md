@@ -25,10 +25,10 @@ Compose multiple heuristics or axioms into a unified scaffold where each layer r
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — canonical definition ($\oplus_{\text{ha}}$, Section 1a)
-- [Iterative Refinement](iterative-refinement.md)
-- [Negation Check](negation-check.md)
-- [Evidence-Action Proportionality](../heuristics/evidence-action-proportionality.md)
+- [Heuristic Algebra](../../heuristic-algebra/) — canonical definition ($\oplus_{\text{ha}}$, Section 1a)
+- [Iterative Refinement](../iterative-refinement/)
+- [Negation Check](../negation-check/)
+- [Evidence-Action Proportionality](../../heuristics/evidence-action-proportionality/)
 
 ## Judgment
 

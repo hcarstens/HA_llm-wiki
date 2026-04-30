@@ -12,7 +12,7 @@ parent: "Applications"
 
 ## Description
 
-A NotebookLM-generated overview of Heuristic Algebra. Supportive of and derivative from the [Heuristic Algebra paper](../heuristic-algebra.md). May include AI-generated summaries, FAQ, and audio overview.
+A NotebookLM-generated overview of Heuristic Algebra. Supportive of and derivative from [Heuristic Algebra](../../heuristic-algebra/). May include AI-generated summaries, FAQ, and audio overview.
 
 ## Content
 
@@ -20,9 +20,9 @@ _Pending ingest. Paste or export NotebookLM content to populate this section._
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — canonical source
-- [Campaign H1 Results](../experiments/2026-03-23_campaign-h1-scaffold-tournament.md) — empirical validation
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — top-ranked scaffold
+- [Heuristic Algebra](../../heuristic-algebra/) — canonical source
+- [Campaign H1 Results](../../experiments/2026-03-23_campaign-h1-scaffold-tournament/) — empirical validation
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — top-ranked scaffold
 
 ## Judgment
 

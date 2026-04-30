@@ -20,14 +20,14 @@ The Heuristics project (Oct 2025–Apr 2026) constituted the foundational develo
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — canonical operator reference
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — top scaffold, derived during this phase
-- [Campaign H1](../experiments/2026-03-23_campaign-h1-scaffold-tournament.md) — first empirical validation of pre-wiki outputs
-- [Campaign H2](../experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) — continued validation
-- [Calibrated Confidence](calibrated-confidence.md) — axiom developed during this phase
-- [Asymmetric Disconfirmation](asymmetric-disconfirmation.md) — axiom developed during this phase
-- [Heuristics Project Retrospective](../experiments/2026-04-05_heuristics-project-retrospective.md) — retrospective evaluating this synthesis's value to the wiki
-- [What to Build Next Synthesis](../applications/what-to-build-next-synthesis.md) — productization phase building on this foundation
+- [Heuristic Algebra](../../heuristic-algebra/) — canonical operator reference
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — top scaffold, derived during this phase
+- [Campaign H1](../../experiments/2026-03-23_campaign-h1-scaffold-tournament/) — first empirical validation of pre-wiki outputs
+- [Campaign H2](../../experiments/2026-04-xx_campaign-h2-temporal-lucidity/) — continued validation
+- [Calibrated Confidence](../calibrated-confidence/) — axiom developed during this phase
+- [Asymmetric Disconfirmation](../asymmetric-disconfirmation/) — axiom developed during this phase
+- [Heuristics Project Retrospective](../../experiments/2026-04-05_heuristics-project-retrospective/) — retrospective evaluating this synthesis's value to the wiki
+- [What to Build Next Synthesis](../../applications/what-to-build-next-synthesis/) — productization phase building on this foundation
 
 ## Judgment
 

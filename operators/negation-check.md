@@ -25,9 +25,9 @@ Invert a claim or scaffold output and test whether the negation holds. If the ne
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — canonical definition ($\neg$, Section 2)
-- [Asymmetric Disconfirmation](../heuristics/asymmetric-disconfirmation.md)
-- [Harmonic Layering](harmonic-layering.md)
+- [Heuristic Algebra](../../heuristic-algebra/) — canonical definition ($\neg$, Section 2)
+- [Asymmetric Disconfirmation](../../heuristics/asymmetric-disconfirmation/)
+- [Harmonic Layering](../harmonic-layering/)
 
 ## Judgment
 

@@ -21,12 +21,12 @@ This project operationalizes HA by converting axioms/operators into production a
 
 ## Related
 
-- [What to Build Next Synthesis](../applications/what-to-build-next-synthesis.md) — the productization record this retrospective evaluates
-- [Heuristics Project Retrospective](2026-04-05_heuristics-project-retrospective.md) — companion retrospective on the pre-wiki phase
-- [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis.md) — laboratory foundation
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — scaffold applied in this retrospective
-- [Campaign H1](2026-03-23_campaign-h1-scaffold-tournament.md) — Elo methodology reference for proposed AxiomChat benchmark
-- [Campaign H2](2026-04-xx_campaign-h2-temporal-lucidity.md) — latest campaign results
+- [What to Build Next Synthesis](../../applications/what-to-build-next-synthesis/) — the productization record this retrospective evaluates
+- [Heuristics Project Retrospective](../2026-04-05_heuristics-project-retrospective/) — companion retrospective on the pre-wiki phase
+- [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — laboratory foundation
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — scaffold applied in this retrospective
+- [Campaign H1](../2026-03-23_campaign-h1-scaffold-tournament/) — Elo methodology reference for proposed AxiomChat benchmark
+- [Campaign H2](../2026-04-xx_campaign-h2-temporal-lucidity/) — latest campaign results
 
 ## Judgment
 

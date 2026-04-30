@@ -24,14 +24,14 @@ The "What to Build Next" project (primarily Mar–Apr 2026) translates Heuristic
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — canonical operator reference
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — top scaffold, productization candidate
-- [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis.md) — pre-wiki foundation this phase builds on
-- [Heuristics Project Retrospective](../experiments/2026-04-05_heuristics-project-retrospective.md) — retrospective linking laboratory to wiki
-- [NotebookLM HA Overview](notebooklm-ha-overview.md) — related external overview
-- [What to Build Next Retrospective](../experiments/2026-04-05_what-to-build-next-retrospective.md) — retrospective evaluating this synthesis
-- [Voice-Activated Heuristic Agent](voice-activated-heuristic-agent.md) — Shortcuts-based voice agent prototype
-- [Heuristic Agent](heuristic-agent.md) — full Python agent shell implementation
+- [Heuristic Algebra](../../heuristic-algebra/) — canonical operator reference
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — top scaffold, productization candidate
+- [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — pre-wiki foundation this phase builds on
+- [Heuristics Project Retrospective](../../experiments/2026-04-05_heuristics-project-retrospective/) — retrospective linking laboratory to wiki
+- [NotebookLM HA Overview](../notebooklm-ha-overview/) — related external overview
+- [What to Build Next Retrospective](../../experiments/2026-04-05_what-to-build-next-retrospective/) — retrospective evaluating this synthesis
+- [Voice-Activated Heuristic Agent](../voice-activated-heuristic-agent/) — Shortcuts-based voice agent prototype
+- [Heuristic Agent](../heuristic-agent/) — full Python agent shell implementation
 
 ## Judgment
 

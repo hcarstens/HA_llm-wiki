@@ -21,9 +21,9 @@ The magnitude of any action or conclusion should be proportional to the strength
 
 ## Related
 
-- [Calibrated Confidence](calibrated-confidence.md)
-- [Asymmetric Disconfirmation](asymmetric-disconfirmation.md)
-- [Harmonic Layering](../operators/harmonic-layering.md)
+- [Calibrated Confidence](../calibrated-confidence/)
+- [Asymmetric Disconfirmation](../asymmetric-disconfirmation/)
+- [Harmonic Layering](../../operators/harmonic-layering/)
 
 ## Judgment
 

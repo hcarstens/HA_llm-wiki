@@ -11,7 +11,7 @@ parent: "Experiments"
 
 ## Key Insight
 
-The pre-wiki conversations (Oct 2025–Apr 2026) supplied the raw heuristic "inventory" that the wiki now organizes and stress-tests. Ingesting the [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis.md) closes the loop from laboratory to living knowledge engine.
+The pre-wiki conversations (Oct 2025–Apr 2026) supplied the raw heuristic "inventory" that the wiki now organizes and stress-tests. Ingesting the [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) closes the loop from laboratory to living knowledge engine.
 
 ## Proposed Next Experiments
 
@@ -21,10 +21,10 @@ The pre-wiki conversations (Oct 2025–Apr 2026) supplied the raw heuristic "inv
 
 ## Related
 
-- [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis.md) — the ingested pre-wiki record this retrospective evaluates
-- [Campaign H1](2026-03-23_campaign-h1-scaffold-tournament.md) — first empirical validation
-- [Campaign H2](2026-04-xx_campaign-h2-temporal-lucidity.md) — latest campaign results
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — scaffold applied in this retrospective
+- [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — the ingested pre-wiki record this retrospective evaluates
+- [Campaign H1](../2026-03-23_campaign-h1-scaffold-tournament/) — first empirical validation
+- [Campaign H2](../2026-04-xx_campaign-h2-temporal-lucidity/) — latest campaign results
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — scaffold applied in this retrospective
 
 ## Judgment
 

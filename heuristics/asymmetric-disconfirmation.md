@@ -21,9 +21,9 @@ Actively seek evidence that contradicts your current beliefs. Weight disconfirmi
 
 ## Related
 
-- [Evidence-Action Proportionality](evidence-action-proportionality.md)
-- [Calibrated Confidence](calibrated-confidence.md)
-- [Negation Check](../operators/negation-check.md)
+- [Evidence-Action Proportionality](../evidence-action-proportionality/)
+- [Calibrated Confidence](../calibrated-confidence/)
+- [Negation Check](../../operators/negation-check/)
 
 ## Judgment
 

@@ -5,7 +5,7 @@ parent: "Experiments"
 
 # Campaign H2: Temporal Lucidity, Anticipatory Navigation & Kinetic Epistemics
 
-**Parent campaign:** [Campaign H1](2026-03-23_campaign-h1-scaffold-tournament.md)
+**Parent campaign:** [Campaign H1](../2026-03-23_campaign-h1-scaffold-tournament/)
 **Context:** H2 is the second campaign to use harmonic combination ($\oplus_{\text{ha}}$). Eight prior campaigns (R2–R8, H1) primarily used biological selection ($\oplus_{\text{bio}}$), with H1 introducing $\oplus_{\text{ha}}$ for Lucid Judgment.
 
 ## Research Question
@@ -131,7 +131,7 @@ LJ (1827) leads AN (1739) by +88 points. The reasoning path CT → CR → DC/RR/
 
 ## Related
 
-- [Campaign H1](2026-03-23_campaign-h1-scaffold-tournament.md) — parent campaign
-- [Heuristic Algebra](../heuristic-algebra.md) — the formal system
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — retains #1
-- [Harmonic Layering](../operators/harmonic-layering.md) — works best within families
+- [Campaign H1](../2026-03-23_campaign-h1-scaffold-tournament/) — parent campaign
+- [Heuristic Algebra](../../heuristic-algebra/) — the formal system
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — retains #1
+- [Harmonic Layering](../../operators/harmonic-layering/) — works best within families

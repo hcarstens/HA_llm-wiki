@@ -46,7 +46,7 @@ vendor/Heuristics/    — Heuristics framework (git submodule)
 
 ## Relationship to Voice-Activated Heuristic Agent (Shortcuts)
 
-The [Voice-Activated Heuristic Agent](voice-activated-heuristic-agent.md) is a zero-code Apple Shortcuts prototype. This Heuristic Agent is the full Python implementation that supersedes it in capability:
+The [Voice-Activated Heuristic Agent](../voice-activated-heuristic-agent/) is a zero-code Apple Shortcuts prototype. This Heuristic Agent is the full Python implementation that supersedes it in capability:
 
 | Dimension | Shortcuts Spec | Heuristic Agent (this page) |
 |-----------|---------------|----------------------------|
@@ -60,12 +60,12 @@ Both share the same $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ H
 
 ## Related
 
-- [Heuristic Algebra](../heuristic-algebra.md) — canonical operator reference; agent derived as $\pi_7$ compound
-- [Lucid Judgment](../scaffolds/lucid-judgment.md) — primary reasoning engine (Elo 1827)
-- [Voice-Activated Heuristic Agent](voice-activated-heuristic-agent.md) — Shortcuts-based prototype (predecessor)
-- [What to Build Next Synthesis](what-to-build-next-synthesis.md) — productization phase that specified these agents
-- [What to Build Next Retrospective](../experiments/2026-04-05_what-to-build-next-retrospective.md) — proposed AxiomChat benchmarking
-- [Early Heuristics Project Synthesis](../heuristics/early-heuristics-project-synthesis.md) — laboratory foundation
+- [Heuristic Algebra](../../heuristic-algebra/) — canonical operator reference; agent derived as $\pi_7$ compound
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — primary reasoning engine (Elo 1827)
+- [Voice-Activated Heuristic Agent](../voice-activated-heuristic-agent/) — Shortcuts-based prototype (predecessor)
+- [What to Build Next Synthesis](../what-to-build-next-synthesis/) — productization phase that specified these agents
+- [What to Build Next Retrospective](../../experiments/2026-04-05_what-to-build-next-retrospective/) — proposed AxiomChat benchmarking
+- [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — laboratory foundation
 
 ## Judgment
 
