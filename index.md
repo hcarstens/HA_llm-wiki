@@ -20,6 +20,7 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 
 | Axiom | Confidence | Page |
 |-------|-----------|------|
+| Agentic Search Optimization | Medium-High | [agentic-search-optimization.md](heuristics/agentic-search-optimization.md) |
 | Evidence-Action Proportionality | Medium | [evidence-action-proportionality.md](heuristics/evidence-action-proportionality.md) |
 | Calibrated Confidence | Medium | [calibrated-confidence.md](heuristics/calibrated-confidence.md) |
 | Asymmetric Disconfirmation | Medium | [asymmetric-disconfirmation.md](heuristics/asymmetric-disconfirmation.md) |
@@ -74,6 +75,8 @@ _No lint audits yet. Run the first audit to populate this section._
 
 - [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity.md) — latest
 - [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament.md)
+- [Agentic Search](agentic_search.md) — background and ASO framing
+- [Agentic Search Optimization](heuristics/agentic-search-optimization.md) — site optimization heuristic
 - [Lucid Judgment + LLM-Wiki](scaffolds/lucid-judgment-llm-wiki.md)
 - [Applications](applications/)
 - [CLAUDE.md](CLAUDE.md) — Standing instructions & conventions

@@ -7,4 +7,17 @@
     svg: { fontCache: 'global' }
   };
 </script>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="alternate" type="text/plain" title="LLMs.txt" href="{{ '/llms.txt' | relative_url }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "url": {{ site.url | append: site.baseurl | append: '/' | jsonify }},
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>

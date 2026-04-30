@@ -1,0 +1,46 @@
+# Heuristic Algebra LLM-Wiki
+
+Canonical site: https://hcarstens.github.io/HA_llm-wiki/
+Format: Markdown-first Jekyll wiki
+Purpose: Research wiki for Heuristic Algebra, Lucid Judgment, composite reasoning scaffolds, experiments, and applied agent designs.
+
+## Recommended Entry Points
+
+- /index.html — Homepage and canonical gateway.
+- /heuristic-algebra/ — Canonical operator vocabulary and framework reference.
+- /scaffolds/lucid-judgment/ — Primary reasoning scaffold.
+- /experiments/2026-04-12_scaffolding-summary/ — Summary of reasoning, creativity, and forecasting scaffold experiments.
+- /experiments/2026-04-xx_campaign-h2-temporal-lucidity/ — Latest scaffold tournament results.
+
+## High-Value Sections
+
+- /heuristics/ — Individual heuristics and axioms.
+- /operators/ — Heuristic Algebra operators.
+- /scaffolds/ — Finished composite scaffolds.
+- /experiments/ — Evaluation reports and retrospectives.
+- /applications/ — Applied systems and agent designs.
+
+## Agentic Search / ASO Guidance
+
+- /agentic-search/ — Background note on agentic search and optimization for AI agents.
+- /heuristics/agentic-search-optimization/ — Wiki page summarizing ASO/AEO guidance.
+
+## Parsing Notes
+
+- Markdown source files are canonical; HTML is generated from the same content.
+- The site uses semantic headings and static content. Core content does not require JavaScript.
+- Math expressions are rendered with MathJax; when parsing source, prefer the Markdown text over rendered math SVG.
+- Internal links are usually relative in source and published under the /HA_llm-wiki base path.
+
+## Constraints
+
+- This is a documentation site, not a transactional application.
+- No authenticated API, checkout flow, or write action is exposed through the public site.
+- Some repository-only guidance may appear in Markdown files that are not linked in navigation.
+
+## Best Retrieval Strategy
+
+1. Start at /index.html for canonical navigation.
+2. Prefer the specific section index before traversing leaf pages.
+3. Use the scaffolds and experiments sections for the most current synthesized conclusions.
+4. Use the heuristic-algebra reference for operator definitions and notation.
