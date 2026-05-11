@@ -21,10 +21,10 @@ Agent manifest: /agentic_index.json
 - /experiments/ — Evaluation reports and retrospectives.
 - /applications/ — Applied systems and agent designs.
 
-## Agentic Search / ASO Guidance
+## ASO / GEO Guidance
 
-- /agentic-search/ — Background note on agentic search and optimization for AI agents.
-- /heuristics/agentic-search-optimization/ — Wiki page summarizing ASO/AEO guidance.
+- /agentic-search/ — Background note on SEO, ASO/AEO, and GEO for AI agents and generative answer layers.
+- /heuristics/agentic-search-optimization/ — Canonical wiki page for ASO, AEO, and GEO terminology and guidance.
 
 ## Parsing Notes
 

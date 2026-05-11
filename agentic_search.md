@@ -8,7 +8,15 @@ permalink: /agentic-search/
 
 This represents an evolution beyond traditional search engines or generative AI summaries (e.g., AI Overviews), as agents operate proactively, iteratively, and with tool use. The "agent equivalent of SEO" is commonly termed **Agentic Search Optimization (ASO)** or **Agentic Engine Optimization (AEO)**. It involves structuring and serving web pages so that AI agents can discover, parse, evaluate, and act upon them efficiently.
 
+**Generative Engine Optimization (GEO)** is the adjacent problem of making content easy for generative systems to quote, summarize, and cite inside answer layers. In this wiki, ASO is the canonical umbrella term, AEO is treated as a near-synonym, and GEO is used when the emphasis shifts from agent action to generative synthesis and citation.
+
 Unlike conventional SEO, which targets human users and search engine crawlers (e.g., Googlebot) with an emphasis on rankings, clicks, and traffic, ASO/AEO prioritizes machine readability, token efficiency (to fit within agents' context windows), and actionability. Agents often fetch content via single HTTP requests, bypass JavaScript-heavy rendering, and discard or truncate non-optimized material, leading to silent failures if pages are not prepared accordingly.
+
+The distinction is practical rather than absolute. The same page structure often improves all three layers:
+
+- SEO rewards crawlability and relevance.
+- ASO rewards agent-readable structure and explicit capability signaling.
+- GEO rewards concise, quotable, citation-friendly summaries with stable wording.
 
 These practices build directly on strong technical SEO foundations while adding agent-specific layers. Below is a structured overview of the primary recommendations for preparing pages, drawn from established frameworks (including guidance from Google Cloud AI leadership).
 
@@ -47,4 +55,4 @@ Agents evaluate trustworthiness similarly to advanced search systems:
 - Monitor server logs for AI-specific user-agents (distinct from standard bots) to track agent traffic and behavior.
 - Leverage AI visibility platforms to benchmark how often your pages are cited or recommended by agents.
 
-This field is emerging rapidly as of 2026, with ongoing developments in standards (e.g., agent-specific protocols). Optimizations for agents frequently improve human user experience as well, creating a virtuous cycle. Organizations that adopt these practices position their pages not only for visibility but for meaningful inclusion in agent-driven workflows. For technical or documentation-heavy sites, starting with an AEO audit (tools like those referenced in Addy Osmani’s framework) is particularly effective. If your site serves a specific sector (e.g., e-commerce), further tailoring around APIs and product schema is advisable.
+This field is emerging rapidly as of 2026, with ongoing developments in standards (e.g., agent-specific protocols). Optimizations for agents frequently improve human user experience as well, creating a virtuous cycle. Organizations that adopt these practices position their pages not only for visibility but for meaningful inclusion in agent-driven workflows. For technical or documentation-heavy sites, starting with an ASO or GEO audit is particularly effective. If your site serves a specific sector (e.g., e-commerce), further tailoring around APIs, product schema, and answer-layer citation patterns is advisable.

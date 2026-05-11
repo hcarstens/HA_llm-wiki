@@ -8,7 +8,7 @@ has_children: true
 
 Axiom pages for the Heuristic Algebra wiki.
 
-- [Agentic Search Optimization](agentic-search-optimization/)
+- [Agentic Search Optimization](agentic-search-optimization/) — canonical ASO/AEO/GEO page
 - [Agentic Reasoning: How Should I Learn?](agentic-reasoning-how-should-i-learn/)
 - [Agentic Reasoning: What Should I Do Next?](agentic-reasoning-what-should-i-do-next/)
 - [Agentic Reasoning: When Should I Change Course?](agentic-reasoning-when-should-i-change-course/)

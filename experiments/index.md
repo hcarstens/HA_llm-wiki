@@ -15,3 +15,4 @@ Timestamped Elo-style tests of wiki performance.
 - [2026-04-05 What to Build Next Retrospective](2026-04-05_what-to-build-next-retrospective/) — Synthesis of future directions.
 - [2026-04-xx Campaign H2 Temporal Lucidity](2026-04-xx_campaign-h2-temporal-lucidity/) — Second scaffold tournament.
 - [2026-04-12 Scaffolding Summary](2026-04-12_scaffolding-summary/) — Comprehensive summary of reasoning, creativity, and forecasting scaffold experiments.
+- [2026-05-11 ASO/GEO Audit](2026-05-11_aso-geo-audit/) — First site-level audit of discovery, terminology, and measurement gaps.

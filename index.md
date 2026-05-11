@@ -27,6 +27,8 @@ Full operator set: $\{\oplus, \oplus_{\text{bio}}, \oplus_{\text{ha}}, \oplus_{\
 | Heuristics of Libraries (HLib) | Medium-High | [Heuristics of Libraries](heuristics/libraries/) |
 | Early Heuristics Project Synthesis | Medium-High | [Early Heuristics Project Synthesis](heuristics/early-heuristics-project-synthesis/) |
 
+Canonical vocabulary note: this wiki uses Agentic Search Optimization as the umbrella term, treats AEO as a near-synonym, and treats GEO as the citation and synthesis-oriented sub-problem.
+
 ## Operator Inventory
 
 | Operator | Symbol | Page |
@@ -69,14 +71,17 @@ Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament/) (26 con
 
 ## Recent Lint Findings
 
-_No lint audits yet. Run the first audit to populate this section._
+- [2026-05-11 ASO/GEO Audit](experiments/2026-05-11_aso-geo-audit/) — discovery layer passes with follow-up actions.
+- Strengths: `llms.txt`, `agentic_index.json`, `robots.txt`, `AGENTS.md`, stable section indexes, and canonical ASO/AEO/GEO terminology.
+- Main gap: measurement remains external; the repo documents readiness better than it proves generative visibility.
 
 ## Quick Links
 
 - [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity/) — latest
+- [ASO/GEO Audit](experiments/2026-05-11_aso-geo-audit/) — first site-level audit
 - [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament/)
-- [Agentic Search](agentic-search/) — background and ASO framing
-- [Agentic Search Optimization](heuristics/agentic-search-optimization/) — site optimization heuristic
+- [Agentic Search](agentic-search/) — background on SEO, ASO/AEO, and GEO
+- [Agentic Search Optimization](heuristics/agentic-search-optimization/) — canonical ASO/AEO/GEO heuristic
 - [Lucid Judgment + LLM-Wiki](scaffolds/lucid-judgment-llm-wiki/)
 - [Applications](applications/)
 - [Blueprint](ha_llm-wiki/) — original blueprint

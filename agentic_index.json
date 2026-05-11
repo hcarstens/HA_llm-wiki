@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "manifest_type": "agent_manifest",
   "generated_from": "static-curated-site-manifest",
-  "last_curated": "2026-04-30",
+  "last_curated": "2026-05-11",
   "site": {
     "title": "Heuristic Algebra LLM-Wiki",
     "url": "https://hcarstens.github.io/HA_llm-wiki/",
@@ -32,6 +32,7 @@
     ],
     "agent_tasks_supported": [
       "Discover canonical entry points",
+      "Distinguish SEO, ASO/AEO, and GEO terminology",
       "Traverse section inventories",
       "Look up operators and heuristic pages",
       "Compare scaffold experiments and retrospectives",
@@ -68,6 +69,11 @@
         "type": "summary",
         "title": "Scaffolding Summary",
         "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/"
+      },
+      {
+        "type": "audit",
+        "title": "ASO/GEO Audit",
+        "path": "/HA_llm-wiki/experiments/2026-05-11_aso-geo-audit/"
       },
       {
         "type": "discovery-surface",
@@ -107,6 +113,11 @@
       "title": "Campaign H2",
       "path": "/HA_llm-wiki/experiments/2026-04-xx_campaign-h2-temporal-lucidity/",
       "priority": "recommended"
+    },
+    {
+      "title": "Agentic Search Optimization",
+      "path": "/HA_llm-wiki/heuristics/agentic-search-optimization/",
+      "priority": "supporting"
     },
     {
       "title": "Agentic Search",
@@ -225,7 +236,7 @@
     },
     "experiments": {
       "section_path": "/HA_llm-wiki/experiments/",
-      "page_count": 5,
+      "page_count": 6,
       "pages": [
         {
           "title": "Campaign H1",
@@ -242,6 +253,10 @@
         {
           "title": "Scaffolding Summary: From Reasoning to Creativity to Forecasting",
           "path": "/HA_llm-wiki/experiments/2026-04-12_scaffolding-summary/"
+        },
+        {
+          "title": "ASO/GEO Audit",
+          "path": "/HA_llm-wiki/experiments/2026-05-11_aso-geo-audit/"
         },
         {
           "title": "Campaign H2",
