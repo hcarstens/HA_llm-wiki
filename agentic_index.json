@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "manifest_type": "agent_manifest",
   "generated_from": "static-curated-site-manifest",
-  "last_curated": "2026-05-11",
+  "last_curated": "2026-06-04",
   "site": {
     "title": "Heuristic Algebra LLM-Wiki",
     "url": "https://hcarstens.github.io/HA_llm-wiki/",
@@ -60,6 +60,11 @@
       "/HA_llm-wiki/"
     ],
     "latest_signals": [
+      {
+        "type": "application",
+        "title": "Heuristics as Agents",
+        "path": "/HA_llm-wiki/applications/heuristics-as-agents/"
+      },
       {
         "type": "experiment",
         "title": "Campaign H2",
@@ -266,11 +271,15 @@
     },
     "applications": {
       "section_path": "/HA_llm-wiki/applications/",
-      "page_count": 5,
+      "page_count": 6,
       "pages": [
         {
           "title": "Heuristic Agent (Python)",
           "path": "/HA_llm-wiki/applications/heuristic-agent/"
+        },
+        {
+          "title": "Heuristics as Agents",
+          "path": "/HA_llm-wiki/applications/heuristics-as-agents/"
         },
         {
           "title": "NotebookLM Overview",

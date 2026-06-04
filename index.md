@@ -90,3 +90,4 @@ Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament/) (26 con
 - [Voice-Activated Heuristic Agent](applications/voice-activated-heuristic-agent/) — $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ HAg) voice agent spec
 - [Heuristic Agent](applications/heuristic-agent/) — Python agent shell with multi-provider LLM, sentinel, audio agent
 - [Self-Repairing Agents](applications/self-repairing-agents/) — AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ LJ for autonomous failure diagnosis and recovery
+- [Heuristics as Agents](applications/heuristics-as-agents/) — single heuristics ($\pi$) injected as agent skills; Stage 1 baseline before full composition

@@ -66,6 +66,7 @@ Both share the same $\pi_7$(LJ $\oplus$ AgR $\oplus$ AgI $\oplus$ AgH $\oplus$ H
 - [What to Build Next Synthesis](../what-to-build-next-synthesis/) — productization phase that specified these agents
 - [What to Build Next Retrospective](../../experiments/2026-04-05_what-to-build-next-retrospective/) — proposed AxiomChat benchmarking
 - [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — laboratory foundation
+- [Heuristics as Agents](../heuristics-as-agents/) — single-heuristic skills this shell can host (Stage 1 baseline)
 
 ## Judgment
 

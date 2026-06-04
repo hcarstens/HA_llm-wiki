@@ -65,6 +65,7 @@ Project is falsified if desktop prototype fails to deliver framework-compliant r
 - [What to Build Next Retrospective](../../experiments/2026-04-05_what-to-build-next-retrospective/) — retrospective proposing AxiomChat benchmarking
 - [Early Heuristics Project Synthesis](../../heuristics/early-heuristics-project-synthesis/) — laboratory foundation
 - [Heuristic Agent](../heuristic-agent/) — full Python implementation (supersedes this Shortcuts prototype in capability)
+- [Heuristics as Agents](../heuristics-as-agents/) — single-heuristic agents as the Stage 1 baseline before $\pi_7$ composition
 
 ## Judgment
 
