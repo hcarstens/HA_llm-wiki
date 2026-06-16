@@ -71,13 +71,15 @@ Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament/) (26 con
 
 ## Recent Lint Findings
 
+- [2026-06-16 Dynamic Heuristic Shaping](experiments/2026-06-16_dynamic-heuristic-shaping/) — heuristic shaping beats control on 10/11 qualitative research syntheses (heuristic_llm: 1725 Elo vs control 1233).
 - [2026-05-11 ASO/GEO Audit](experiments/2026-05-11_aso-geo-audit/) — discovery layer passes with follow-up actions.
 - Strengths: `llms.txt`, `agentic_index.json`, `robots.txt`, `AGENTS.md`, stable section indexes, and canonical ASO/AEO/GEO terminology.
 - Main gap: measurement remains external; the repo documents readiness better than it proves generative visibility.
 
 ## Quick Links
 
-- [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity/) — latest
+- [Dynamic Heuristic Shaping](experiments/2026-06-16_dynamic-heuristic-shaping/) — latest; heuristic shaping vs control on research synthesis
+- [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity/)
 - [ASO/GEO Audit](experiments/2026-05-11_aso-geo-audit/) — first site-level audit
 - [Campaign H1 Results](experiments/2026-03-23_campaign-h1-scaffold-tournament/)
 - [Agentic Search](agentic-search/) — background on SEO, ASO/AEO, and GEO

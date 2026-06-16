@@ -43,6 +43,7 @@ By injecting a single, focused heuristic into a sub-agent's system prompt at spa
 - [Voice-Activated Heuristic Agent](../voice-activated-heuristic-agent/) — $\pi_7$ heuristic agent spec
 - [Heuristic Agent](../heuristic-agent/) — Python agent shell that hosts injected heuristics
 - [Lucid Judgment](../../scaffolds/lucid-judgment/) — Stage 2 composite scaffold
+- [Dynamic Heuristic Shaping](../../experiments/2026-06-16_dynamic-heuristic-shaping/) — Elo evidence that shaping heuristics into a research agent beats the unshaped control
 - [Applications](../index/)
 
 ## Judgment

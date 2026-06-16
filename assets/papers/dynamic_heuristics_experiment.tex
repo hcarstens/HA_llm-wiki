@@ -1,0 +1,289 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue
+}
+
+\title{Dynamic Heuristic Shaping Improves Qualitative Research Synthesis}
+\author{Henry Carstens}
+\date{June 16, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This experiment evaluates whether heuristic shaping improves the quality of
+research-agent syntheses. Eleven research-agent configurations were run under
+three conditions: a deterministic control, deterministic heuristic shaping, and
+heuristic shaping with LLM-assisted extraction. Outputs were judged blindly by a
+multi-model LLM panel using a fixed research-quality rubric. Heuristic shaping
+beat the control condition on 10 of 11 questions. The LLM-assisted heuristic
+condition ranked first on 8 of 11 questions and achieved a global Elo rating of
+1725.3, compared with 1541.5 for deterministic heuristic shaping and 1233.2 for
+control. The result supports using heuristic shaping as the default synthesis
+path for qualitative research tasks, while preserving separate forecast
+calibration tests for claims about predictive accuracy.
+\end{abstract}
+
+\section{Research Question}
+
+The experiment asks whether Phase F heuristic shaping, with and without F7
+LLM-assisted extraction, produces better qualitative research syntheses than the
+deterministic control path.
+
+The evaluated configs are landscape and architecture syntheses rather than
+resolved binary forecasts. Brier scoring remains the preferred method for
+resolved forecast backtests. This experiment instead measures judged synthesis
+quality: fit to the question, evidence structure, falsifiability, and decision
+usefulness.
+
+\section{Experimental Design}
+
+\subsection{Conditions}
+
+Each research-agent config was run under three conditions using the same source
+set, fixed clock, and schedule configuration.
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Condition & Heuristic researcher & LLM extraction \\
+\midrule
+\texttt{control} & \texttt{off} & disabled \\
+\texttt{heuristic} & \texttt{shaping} & disabled \\
+\texttt{heuristic\_llm} & \texttt{shaping} & enabled with provider fallback \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The LLM fallback order was xAI, Gemini, Codex, then Anthropic. The judged
+artifact for every run was \texttt{domain\_writer/summary.md}.
+
+\subsection{Suite}
+
+The suite contained 11 research-agent schedules:
+
+\begin{center}
+\begin{tabular}{l}
+\toprule
+Schedule \\
+\midrule
+\texttt{daily\_financial\_synthetic\_fiij} \\
+\texttt{eeg\_decryption\_financial\_ts} \\
+\texttt{ha\_social\_medium\_frequency\_trading} \\
+\texttt{kalman\_filter\_optimality} \\
+\texttt{llm\_near\_frontier\_ml\_clustering} \\
+\texttt{llm\_time\_series\_baseline} \\
+\texttt{multiuser\_backtest\_scaffolding} \\
+\texttt{social\_media\_stationarity\_stocks} \\
+\texttt{social\_stock\_data\_feeds} \\
+\texttt{synthetic\_data\_fiij\_football} \\
+\texttt{time\_series\_forecasting\_state} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Blind Judge Panel}
+
+The panel was configured with xAI, Gemini, Codex, and Anthropic. For each
+question, judges received anonymized summaries and returned a ranking in the
+form \texttt{RANKING: A, B, C}. Two to three judges succeeded per question.
+
+Judges ranked outputs against the rubric implemented in
+\texttt{forecasting/research\_agent/judge\_panel.py}, covering question fit,
+evidence structure, falsifiability, and practical usefulness.
+
+Consensus rankings were computed using Borda count across successful judges.
+Inter-judge agreement was measured with Kendall's W. Global condition strength
+was estimated with sequential Elo in \texttt{forecasting/research\_agent/elo.py},
+using K=32 and an initial rating of 1500. Each judge ranking and each Borda
+consensus ranking was expanded into pairwise wins.
+
+\subsection{Execution}
+
+The full suite was run with:
+
+\begin{verbatim}
+python -m forecasting.research_agent.evaluate_qualitative --suite \
+  --suite-output runs/research/qualitative/20260616
+\end{verbatim}
+
+Elo was recomputed without re-judging with:
+
+\begin{verbatim}
+python -m forecasting.research_agent.evaluate_qualitative \
+  --backfill-elo runs/research/qualitative/20260616
+\end{verbatim}
+
+Artifacts are stored under \texttt{runs/research/qualitative/20260616/},
+including variant runs, per-question \texttt{qualitative\_report.json},
+\texttt{suite\_report.json}, and \texttt{elo\_ratings.json}.
+
+\section{Results}
+
+\subsection{Per-Question Outcomes}
+
+Heuristic shaping beat the control condition on 10 of 11 questions. The only
+control win occurred in \texttt{llm\_time\_series\_baseline}, where the control
+path used a specialized financial time-series baseline writer.
+
+\scriptsize
+\begin{longtable}{P{0.25\linewidth}P{0.32\linewidth}rrP{0.16\linewidth}}
+\toprule
+Schedule & Consensus ranking & W & Panel & Verdict \\
+\midrule
+\endfirsthead
+\toprule
+Schedule & Consensus ranking & W & Panel & Verdict \\
+\midrule
+\endhead
+\texttt{daily\_financial\_synthetic\_fiij} & heuristic\_llm > heuristic > control & 0.75 & 2 & heuristic beats control \\
+\texttt{eeg\_decryption\_financial\_ts} & heuristic > heuristic\_llm > control & 0.44 & 3 & heuristic beats control \\
+\texttt{ha\_social\_medium\_frequency\_trading} & heuristic\_llm > heuristic > control & 1.00 & 3 & heuristic beats control \\
+\texttt{kalman\_filter\_optimality} & heuristic\_llm > heuristic > control & 0.11 & 3 & heuristic beats control \\
+\texttt{llm\_near\_frontier\_ml\_clustering} & heuristic\_llm > heuristic > control & 0.75 & 2 & heuristic beats control \\
+\texttt{llm\_time\_series\_baseline} & control > heuristic > heuristic\_llm & 0.44 & 3 & control wins \\
+\texttt{multiuser\_backtest\_scaffolding} & heuristic\_llm > heuristic > control & 1.00 & 3 & heuristic beats control \\
+\texttt{social\_media\_stationarity\_stocks} & heuristic > heuristic\_llm > control & 0.75 & 2 & heuristic beats control \\
+\texttt{social\_stock\_data\_feeds} & heuristic\_llm > heuristic > control & 1.00 & 3 & heuristic beats control \\
+\texttt{synthetic\_data\_fiij\_football} & heuristic\_llm > heuristic > control & 0.78 & 3 & heuristic beats control \\
+\texttt{time\_series\_forecasting\_state} & heuristic\_llm > heuristic > control & 1.00 & 2 & heuristic beats control \\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\subsection{Aggregate Elo}
+
+The global Elo pool shows a large separation between the two heuristic
+conditions and the control condition.
+
+\begin{center}
+\begin{tabular}{lrlrr}
+\toprule
+Condition & Elo & W-L & Matches & Delta vs control \\
+\midrule
+\texttt{heuristic\_llm} & \textbf{1725.3} & 62-18 & 80 & \textbf{+492.1} \\
+\texttt{heuristic} & 1541.5 & 48-32 & 80 & +308.3 \\
+\texttt{control} & 1233.2 & 10-70 & 80 & baseline \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The mean Elo across the three conditions is 1500.0 by construction.
+
+\subsection{Summary Statistics}
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Questions judged & 11 \\
+Heuristic beats control & \textbf{10 / 11} \\
+\texttt{heuristic\_llm} ranked first & \textbf{8 / 11} \\
+\texttt{heuristic} ranked first & 2 / 11 \\
+\texttt{control} ranked first & 1 / 11 \\
+Mean Kendall's W & 0.73 \\
+Elo spread, \texttt{heuristic\_llm} minus \texttt{control} & +492.1 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Interpretation}
+
+The results indicate that heuristic shaping improves qualitative research
+synthesis in this suite. The control condition was usually ranked last, while
+the two heuristic conditions captured nearly all first-place rankings. The
+largest gain came from \texttt{heuristic\_llm}, suggesting that LLM-assisted
+extraction adds useful coverage when the system is asked to identify claims,
+counterclaims, base rates, and decision-relevant implications from a source set.
+
+The deterministic \texttt{heuristic} condition also performed well. Its 1541.5
+Elo and 48-32 pairwise record show that the benefit is not solely attributable
+to adding more LLM calls. The shaping layer appears to provide useful structure
+even when claim extraction is deterministic.
+
+The \texttt{llm\_time\_series\_baseline} exception is informative. In that
+schedule, the control path used a specialized financial time-series baseline
+template. Generic heuristic shaping should not replace this dedicated path for
+financial-markets LLM-baseline questions without further testing.
+
+\section{Limitations}
+
+The experiment measures judged synthesis quality, not realized forecast
+accuracy. It should be treated as a qualitative research benchmark rather than a
+calibration result.
+
+The judge panel was partial. Gemini frequently failed to emit a parseable
+\texttt{RANKING:} line, and Anthropic returned authentication errors on some
+calls. The mean successful panel size was about 2.5 of 4 judges per question.
+
+Judge agreement was uneven. Mean Kendall's W was 0.73, but the Kalman question
+had W=0.11, and the EEG and LLM-baseline questions each had W=0.44. Conclusions
+for low-agreement questions should be treated as provisional.
+
+The suite is small and internally generated. It is useful for regression testing
+the research-agent stack, but external validity requires additional domains,
+larger panels, and forecast tasks with resolved outcomes.
+
+\section{Recommendations}
+
+\begin{enumerate}[leftmargin=*]
+\item Use \texttt{heuristic\_researcher: shaping} with LLM extraction as the
+default for non-financial qualitative research syntheses.
+\item Preserve specialized templates where they encode domain-specific
+structure, especially the financial time-series LLM baseline path.
+\item Keep Brier-scored forecast backtests as the evidence tier for predictive
+accuracy claims.
+\item Fix judge-infrastructure failures and re-run the suite to estimate Elo
+stability.
+\item Inspect low-agreement questions individually before promoting their
+results as strong evidence.
+\end{enumerate}
+
+\section{Reproducibility and Data Availability}
+
+The primary generated artifacts are local run outputs under
+\texttt{runs/research/qualitative/20260616/}. The durable methods and
+implementation files are version-controlled in this repository. The experiment
+can be rerun from the command in Section 2.4, provided the configured LLM
+providers are available.
+
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+Item & Path \\
+\midrule
+Suite report & \texttt{runs/research/qualitative/20260616/suite\_report.json} \\
+Elo ratings & \texttt{runs/research/qualitative/20260616/elo\_ratings.json} \\
+Per-question reports & \texttt{runs/research/qualitative/20260616/*/qualitative\_report.json} \\
+Variant runs & \texttt{runs/research/qualitative/20260616/*/variants/} \\
+Elo implementation & \texttt{forecasting/research\_agent/elo.py} \\
+Judge panel & \texttt{forecasting/research\_agent/judge\_panel.py} \\
+Suite runner & \texttt{forecasting/research\_agent/evaluate\_qualitative.py} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Citation}
+
+Carstens, H. (2026). \textit{Dynamic heuristic shaping improves qualitative
+research synthesis}. Forecasting research notes, 2026-06-16.
+
+\end{document}

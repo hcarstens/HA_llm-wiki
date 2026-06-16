@@ -44,6 +44,7 @@ Use alone — do not combine with additional heuristics, as they degrade perform
 - [Scaffolds](../)
 - [Heuristic Algebra](../../heuristic-algebra/)
 - [Experiments](../../experiments/)
+- [Dynamic Heuristic Shaping](../../experiments/2026-06-16_dynamic-heuristic-shaping/) — qualitative-synthesis counterpart; keeps Brier-scored forecasting (this scaffold) as the distinct evidence tier for predictive accuracy
 
 ## Judgment
 
