@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [master]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -19,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so sitemap lastmod is the committing revision, not checkout time.
+          fetch-depth: 0
       - uses: actions/configure-pages@v5
       - uses: ruby/setup-ruby@v1
         with:
@@ -28,9 +32,39 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Check generated AEO outputs
+        run: |
+          set -euo pipefail
+          test -s _site/sitemap.xml
+          test -s _site/llms.txt
+          test -s _site/llms-full.txt
+          test -s _site/robots.txt
+          grep -q '<lastmod>' _site/sitemap.xml
+          grep -q 'https://hcarstens.github.io/HA_llm-wiki/' _site/sitemap.xml
+          if grep -q 'assets/css' _site/sitemap.xml; then
+            echo "sitemap includes theme assets" >&2
+            exit 1
+          fi
+          grep -q 'User-agent: GPTBot' _site/robots.txt
+          grep -q 'User-agent: ClaudeBot' _site/robots.txt
+          grep -q 'User-agent: PerplexityBot' _site/robots.txt
+          grep -q 'User-agent: Google-Extended' _site/robots.txt
+          grep -q 'User-agent: CCBot' _site/robots.txt
+          grep -q 'Sitemap: https://hcarstens.github.io/HA_llm-wiki/sitemap.xml' _site/robots.txt
+          grep -q 'Generated Page Index' _site/llms.txt
+          grep -q 'Canonical operator vocabulary' _site/llms.txt
+          grep -q 'self-correcting, high-fidelity knowledge engine' _site/index.html
+          grep -q 'rel="canonical"' _site/index.html
+          grep -q 'name="description"' _site/index.html
+          grep -Eq '"@type": ?"Article"' _site/heuristics/libraries/index.html
+          grep -q 'A 6-axiom framework' _site/heuristics/libraries/index.html
+          test "$(grep -c 'name="description"' _site/heuristics/libraries/index.html)" -eq 1
+          test "$(grep -c 'rel="canonical"' _site/heuristics/libraries/index.html)" -eq 1
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
