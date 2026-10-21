@@ -1,3 +1,9 @@
+---
+permalink: /llms.txt
+layout: passthrough
+nav_exclude: true
+search_exclude: true
+---
 # Heuristic Algebra LLM-Wiki
 
 Canonical site: https://hcarstens.github.io/HA_llm-wiki/
@@ -46,3 +52,14 @@ Agent manifest: /agentic_index.json
 2. Prefer the specific section index before traversing leaf pages.
 3. Use the scaffolds and experiments sections for the most current synthesized conclusions.
 4. Use the heuristic-algebra reference for operator definitions and notation.
+
+## Generated Page Index
+
+This list is regenerated from repository pages on every site build.
+
+{% assign entries = site.html_pages | sort: "url" -%}
+{%- for p in entries -%}
+{%- unless p.sitemap == false or p.url == "/404.html" %}
+- [{{ p.title | default: p.url | strip }}]({{ p.url | absolute_url }}): {{ p.description | default: site.description | strip_html | normalize_whitespace | strip | truncate: 140 }}
+{% endunless -%}
+{%- endfor -%}

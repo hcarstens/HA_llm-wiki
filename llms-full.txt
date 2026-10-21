@@ -1,0 +1,9 @@
+---
+permalink: /llms-full.txt
+layout: passthrough
+nav_exclude: true
+search_exclude: true
+sitemap: false
+render_with_liquid: false
+---
+Full-text export is generated at build time.
