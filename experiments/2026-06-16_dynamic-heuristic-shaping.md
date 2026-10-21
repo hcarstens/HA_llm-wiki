@@ -123,12 +123,12 @@ python -m forecasting.research_agent.evaluate_qualitative --suite \
 
 ## Related
 
-- [Forecasting Scaffold](../scaffolds/forecasting-scaffold/) — separate quantitative path; Brier-scored, kept distinct from this qualitative benchmark
-- [Lucid Judgment](../scaffolds/lucid-judgment/) — scaffold applied to this report
-- [Heuristics as Agents](../applications/heuristics-as-agents/) — heuristics injected as agent skills; shaping is the agentic analogue
-- [Update](../heuristic-algebra/) ($\uparrow$) — the Bayesian credence update this experiment supplies
+- [Forecasting Scaffold](../../scaffolds/forecasting-scaffold/) — separate quantitative path; Brier-scored, kept distinct from this qualitative benchmark
+- [Lucid Judgment](../../scaffolds/lucid-judgment/) — scaffold applied to this report
+- [Heuristics as Agents](../../applications/heuristics-as-agents/) — heuristics injected as agent skills; shaping is the agentic analogue
+- [Update](../../heuristic-algebra/) ($\uparrow$) — the Bayesian credence update this experiment supplies
 - [Experiments](../) — section index for dated reports
-- [Home](../index/) — homepage gateway
+- [Home](../../index.html) — homepage gateway
 
 ## Judgment
 
