@@ -17,3 +17,4 @@ Timestamped Elo-style tests of wiki performance.
 - [2026-04-12 Scaffolding Summary](2026-04-12_scaffolding-summary/) — Comprehensive summary of reasoning, creativity, and forecasting scaffold experiments.
 - [2026-05-11 ASO/GEO Audit](2026-05-11_aso-geo-audit/) — First site-level audit of discovery, terminology, and measurement gaps.
 - [2026-06-16 Dynamic Heuristic Shaping](2026-06-16_dynamic-heuristic-shaping/) — Heuristic shaping beats control on 10/11 research-synthesis questions; LLM-assisted shaping reaches 1725 Elo.
+- [2026-10-21 Heuristics Blind Test](2026-10-21_heuristics-blind-test/) — No detectable accuracy advantage for heuristics in the first 12-task blind test (after a T05 desk rescore).

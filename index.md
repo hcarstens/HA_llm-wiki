@@ -78,6 +78,7 @@ Campaigns: [H1](experiments/2026-03-23_campaign-h1-scaffold-tournament/) (26 con
 
 ## Quick Links
 
+- [Heuristics Blind Test](experiments/2026-10-21_heuristics-blind-test/) — 12-task blind test, heuristics vs neutral prompt, accuracy only
 - [Dynamic Heuristic Shaping](experiments/2026-06-16_dynamic-heuristic-shaping/) — latest; heuristic shaping vs control on research synthesis
 - [Campaign H2 Results](experiments/2026-04-xx_campaign-h2-temporal-lucidity/)
 - [ASO/GEO Audit](experiments/2026-05-11_aso-geo-audit/) — first site-level audit

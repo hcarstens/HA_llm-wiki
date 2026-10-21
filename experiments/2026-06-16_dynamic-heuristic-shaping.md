@@ -19,7 +19,7 @@ This experiment evaluates whether **heuristic shaping** improves the quality of 
 
 Does Phase F heuristic shaping — with and without F7 LLM-assisted extraction — produce better qualitative research syntheses than the deterministic control path?
 
-The evaluated configs are landscape and architecture syntheses, **not** resolved binary forecasts. Brier scoring remains the preferred method for resolved forecast backtests; this experiment instead measures judged synthesis quality: fit to the question, evidence structure, falsifiability, and decision usefulness. See the [Forecasting Scaffold](../scaffolds/forecasting-scaffold/) for the separate quantitative-prediction path.
+The evaluated configs are landscape and architecture syntheses, **not** resolved binary forecasts. Brier scoring remains the preferred method for resolved forecast backtests; this experiment instead measures judged synthesis quality: fit to the question, evidence structure, falsifiability, and decision usefulness. See the [Forecasting Scaffold](../../scaffolds/forecasting-scaffold/) for the separate quantitative-prediction path.
 
 ## Experimental Design
 
@@ -102,7 +102,7 @@ The strongest evidence is the deterministic `heuristic` condition's 1541.5 Elo a
 
 1. Use `heuristic_researcher: shaping` with LLM extraction as the default for **non-financial** qualitative research syntheses.
 2. Preserve specialized templates where they encode domain structure — especially the financial time-series LLM baseline path.
-3. Keep Brier-scored forecast backtests as the evidence tier for predictive-accuracy claims ([Forecasting Scaffold](../scaffolds/forecasting-scaffold/)).
+3. Keep Brier-scored forecast backtests as the evidence tier for predictive-accuracy claims ([Forecasting Scaffold](../../scaffolds/forecasting-scaffold/)).
 4. Fix judge-infrastructure failures and re-run to estimate Elo stability.
 5. Inspect low-agreement questions individually before promoting their results as strong evidence.
 
@@ -123,6 +123,7 @@ python -m forecasting.research_agent.evaluate_qualitative --suite \
 
 ## Related
 
+- [Heuristics Blind Test](../2026-10-21_heuristics-blind-test/) — Oct 2026 12-task blind test, persona+heuristics vs neutral prompt
 - [Forecasting Scaffold](../../scaffolds/forecasting-scaffold/) — separate quantitative path; Brier-scored, kept distinct from this qualitative benchmark
 - [Lucid Judgment](../../scaffolds/lucid-judgment/) — scaffold applied to this report
 - [Heuristics as Agents](../../applications/heuristics-as-agents/) — heuristics injected as agent skills; shaping is the agentic analogue
